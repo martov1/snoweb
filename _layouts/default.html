@@ -1,0 +1,33 @@
+<!doctype html>
+<!-- 
+  Layout basico, tiene los headers minimos necesarios para el funcionamiento
+  del sitio, este layout se usa a lo largo de todas las paginas.
+
+  Ademas tiene el header y footer
+-->
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>SNO</title>
+  <meta name="description" content="Scouts navales de Olivos">
+  <meta name="author" content="Joaquin Brandan: joaquincoding@gmail.com, Lisa Pini ">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/styles/styles.css?v={{site.time}}">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+{% include header.html %}
+
+<body>
+  <script src="{{site.baseurl}}/js/scripts.js"></script>
+
+  {{content}}
+</body>
+
+{% include footer.html %}
+
+

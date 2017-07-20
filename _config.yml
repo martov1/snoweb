@@ -1,3 +1,5 @@
 markdown: redcarpet
 exclude: ['README.md']
 baseurl: /snoweb
+sass:
+    sass_dir: _sasspartials
