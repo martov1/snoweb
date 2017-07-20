@@ -1,9 +1,0 @@
-// Workspace settings
-{
-    // The following will hide the desktp.ini files in the editor amd the _site folder
-    "files.exclude": {
-        "**/desktop.ini": true,
-        "_site":true,
-        "desktop.ini": true
-    }
-}
