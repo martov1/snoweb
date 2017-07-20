@@ -1,0 +1,15 @@
+--- layout: default ---
+
+<p>Layout manada</p>
+{{content}}
+
+
+<p>Novedades!</p>
+
+<!-- Mostrar unicamente posts con nombre de rama de manada -->
+
+{% for post in site.posts %} {%if post.rama == 'manada' %}
+<h3>{{ post.titulo }}</h3>
+<p> {{post.resumen}}</p>
+<p>{{post.content}}</p>
+{% endif %} {% endfor %}
