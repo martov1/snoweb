@@ -1,0 +1,20 @@
+# Aca van las noticias de la agrupa
+# las noticias empiezan con un guion y un espacio
+# el nombre de la noticia va con un espacio despues del guion.
+# la fecha y el contenido con dos espacios.
+
+- noticia: lalala
+  fecha: 10/05/16
+  contenido: lala
+
+- noticia: lalala
+  fecha: 10/05/16
+  contenido: lala
+
+- noticia: lalala
+  fecha: 10/05/16
+  contenido: lala
+
+- noticia: lalala
+  fecha: 10/05/16
+  contenido: lala

@@ -4,3 +4,6 @@ baseurl: /snoweb
 permalink: pretty
 sass:
     sass_dir: sass/_partials
+
+collections:
+- noticias

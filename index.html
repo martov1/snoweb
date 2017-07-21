@@ -3,3 +3,15 @@ layout: layout-default
 ---
 
 <p>contenido</p>
+
+<hr>
+<p>Noticias:</p>
+<ul>
+{% for noticia in site.data.noticias %}
+<li>
+    {{noticia.noticia}}
+    {{noticia.fecha}}
+    {{noticia.contenido}}
+</li>
+{% endfor %}
+</ul>
