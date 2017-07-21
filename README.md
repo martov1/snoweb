@@ -11,6 +11,8 @@ Todo lo que hagas se puede deshacer con un click, no tengas miedo de editar cosa
 
 ###  Como crear una noticia en la pagina principal
 
+Podes añadir noticias desde  [aca](https://github.com/martov1/snoweb/edit/master/_data/noticias.yml)
+
 ###  Como modificar la pagina de tu rama
 
 ###  Como usar el Markdown para escribir mas lindo
