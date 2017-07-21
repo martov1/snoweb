@@ -3,4 +3,4 @@ exclude: ['README.md']
 baseurl: /snoweb
 permalink: pretty
 sass:
-    sass_dir: sass/partials
+    sass_dir: sass/_partials
