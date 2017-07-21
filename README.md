@@ -7,7 +7,7 @@ Url del sitio: https://martov1.github.io/snoweb/
 
 ## Como editar la pagina:
 
-Todo lo que hagas se puede deshacer con un click, no tengas miedo de editar cosas.
+**Todo lo que hagas se puede deshacer con un click, no tengas miedo de editar cosas.**
 
 ###  Como crear una noticia en la pagina principal
 
