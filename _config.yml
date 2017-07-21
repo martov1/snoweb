@@ -1,5 +1,6 @@
 markdown: redcarpet
 exclude: ['README.md']
 baseurl: /snoweb
+permalink: pretty
 sass:
     sass_dir: _sasspartials
