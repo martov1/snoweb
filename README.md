@@ -5,9 +5,11 @@ El sitio esta compilado usando  [jekyll](https://jekyllrb.com/) .
 
 Url del sitio: https://martov1.github.io/snoweb/
 
+**Todo lo que hagas se puede deshacer con un click, no tengas miedo de editar cosas.**
+
+
 ## Como editar la pagina:
 
-**Todo lo que hagas se puede deshacer con un click, no tengas miedo de editar cosas.**
 
 ####  Como crear una noticia en la pagina principal
 
