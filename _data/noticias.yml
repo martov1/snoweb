@@ -4,6 +4,12 @@
 # la fecha , link y contenido con dos espacios.
 # todos los campos salvo "noticia" son opcionales.
 
+
+- noticia: lalala
+  fecha: 10/05/16
+  contenido: lala
+  link: 
+
 - noticia: lalala
   fecha: 10/05/16
   contenido: lala
