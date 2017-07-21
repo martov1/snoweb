@@ -9,13 +9,13 @@ Url del sitio: https://martov1.github.io/snoweb/
 
 **Todo lo que hagas se puede deshacer con un click, no tengas miedo de editar cosas.**
 
-###  Como crear una noticia en la pagina principal
+####  Como crear una noticia en la pagina principal
 
 Podes añadir noticias desde  [aca](https://github.com/martov1/snoweb/edit/master/_data/noticias.yml)
 
-###  Como modificar la pagina de tu rama
+####  Como modificar la pagina de tu rama
 
-###  Como usar el Markdown para escribir mas lindo
+####  Como usar el Markdown para escribir mas lindo
 
 Eso es todo, lo que sigue es para el desarrollador de la pagina.
 
