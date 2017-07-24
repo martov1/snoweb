@@ -1,6 +1,4 @@
 
-$headerHeight: 15vh;
-$headerColor: #006384;
 header {
     height: $headerHeight;
     min-height: 81px;
@@ -23,6 +21,7 @@ header {
         display: flex;
         justify-content: space-between;
         width: 100%;
+        font-size: 20px;
         .nav__right, .nav__left {
             display: flex;
             width: 100%;
@@ -36,30 +35,24 @@ header {
             a:hover {
                 text-decoration: underline; 
             } 
-            
+            .face, .face:hover {
+                color: $headerColor;
+                text-decoration: none;
+            }
+            .button:hover{
+                text-decoration: none;
+            }
         }
-
+        .nav__left{
+                justify-content: space-around;
+        }
         .nav__right{
             justify-content: flex-end;
+            margin-right: 50px;
             a {
-                margin-right: 20px;
+                margin-right: 40px;
             }
-            .face {
-                display: flex;
-                align-items: center;
-                border-radius: 50%;
-                width: 15px;
-                height: 15px;
-                padding: 10px;
-                background: white;
-                border: 2px solid white;
-                color: $headerColor;
-                font-size: 25px;
-                
-                i{
-                    padding-top: 3px;
-                }
-            }
+            
         }
     }
 }
