@@ -3,16 +3,55 @@ $headerHeight: 15vh;
 
 header {
     height: $headerHeight;
+    min-height: 81px;
     background-color: #006384;
+    display: flex;
     
     #logo {
         height: $headerHeight;
-        width: 20vh;
+        min-width: 119px;
         margin-left: 20px;
+        width: $headerHeight * 1.8;
         img{
-            position: absolute;
-            height: $headerHeight * 1.8;
-            margin-top: $headerHeight * 0.1 ;
+            width: 100%;
+            margin-top: $headerHeight * 0.2 ;
+            min-width: 119px;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        .nav__right, .nav__left {
+            display: flex;
+            width: 100%;
+            a, a:hover, a:active, a:visited {
+                color: white; 
+            }
+            a, a:active, a:visited {
+                text-decoration: none; 
+            }
+            a:hover {
+                text-decoration: underline; 
+            } 
+            
+        }
+
+        .nav__right{
+            justify-content: flex-end;
+            
+            .face{
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            padding: 8px;
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+            text-align: center;
+            }
         }
     }
 }

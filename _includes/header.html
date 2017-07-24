@@ -7,13 +7,19 @@ de todas las paginas del sitio asi como la barra de navegacion
 
 <header>
     <div id="logo">
-        <img src="/assets/images/logo.png" >
+        <img src="/assets/images/logo.png">
     </div>
     <nav>
-        <a href="{{site.baseurl}}/" class="{% if page.url == '/' %} currentPage {% endif %}">home</a>
-        <a href="{{site.baseurl}}/paginas/ramas/manada" class="{% if page.url == '/paginas/ramas/manada' %} currentPage {% endif %}">manada</a>
-        <a>blah</a>
-        <a>blah</a>
+        <div class="nav__left">
+            <a href="{{site.baseurl}}/" class="{% if page.url == '/' %} currentPage {% endif %} ">Quienes somos</a>
+            <a href="{{site.baseurl}}/paginas/ramas/manada" class="{% if page.url == '/paginas/ramas/manada' %} currentPage {% endif %} ">Ramas</a>
+            <a href="{{site.baseurl}}/paginas/ramas/manada" class="{% if page.url == '/paginas/ramas/manada' %} currentPage {% endif %} ">El scoutismo</a>
+        </div>
+        <div class="nav__right">
+            <a href="{{site.baseurl}}/paginas/ramas/manada" class="{% if page.url == '/paginas/ramas/manada' %} currentPage {% endif %}  button">Descargas</a>
+            <a href="{{site.baseurl}}/paginas/ramas/manada" class="{% if page.url == '/paginas/ramas/manada' %} currentPage {% endif %} face"><i class="fa fa-facebook" aria-hidden="true"></i>
+</a>
+        </div>
     </nav>
 
 </header>
