@@ -1,17 +1,18 @@
 
+$headerHeight: 15vh;
 
 header {
-    border: 1px salmon solid;
-    height: 20vh;
+    height: $headerHeight;
+    background-color: #006384;
     
     #logo {
-        height: 20vh;
+        height: $headerHeight;
         width: 20vh;
         margin-left: 20px;
         img{
             position: absolute;
-            width: 20vh;
-            margin-top: 10vh;
+            height: $headerHeight * 1.8;
+            margin-top: $headerHeight * 0.1 ;
         }
     }
 }
