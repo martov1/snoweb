@@ -12,7 +12,15 @@ de todas las paginas del sitio asi como la barra de navegacion
     <nav>
         <div class="nav__left">
             <a href="{{site.baseurl}}/" class="{% if page.url == '/' %} currentPage {% endif %} ">Quienes somos</a>
-            <a href="{{site.baseurl}}/paginas/ramas/manada" class="{% if page.url == '/paginas/ramas/manada' %} currentPage {% endif %} ">Ramas</a>
+            <div class="dropdown">
+                <a >Ramas <i class="fa fa-sort-desc" aria-hidden="true"></i></a>
+                <div class ="dropdown-content">
+                 <a>Manada</a>
+                 <a>Unidad</a>
+                 <a>Caminantes</a>
+                 <a>Rovers</a>
+                </div>
+            </div>
             <a href="{{site.baseurl}}/paginas/ramas/manada" class="{% if page.url == '/paginas/ramas/manada' %} currentPage {% endif %} ">El scoutismo</a>
         </div>
         <div class="nav__right">
