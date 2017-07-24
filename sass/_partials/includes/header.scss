@@ -1,10 +1,10 @@
 
 $headerHeight: 15vh;
-
+$headerColor: #006384;
 header {
     height: $headerHeight;
     min-height: 81px;
-    background-color: #006384;
+    background-color: $headerColor;
     display: flex;
     
     #logo {
@@ -23,10 +23,10 @@ header {
         display: flex;
         justify-content: space-between;
         width: 100%;
-        align-items: center;
         .nav__right, .nav__left {
             display: flex;
             width: 100%;
+            align-items: center;
             a, a:hover, a:active, a:visited {
                 color: white; 
             }
@@ -41,16 +41,24 @@ header {
 
         .nav__right{
             justify-content: flex-end;
-            
-            .face{
-            border-radius: 50%;
-            width: 36px;
-            height: 36px;
-            padding: 8px;
-            background: transparent;
-            border: 2px solid white;
-            color: white;
-            text-align: center;
+            a {
+                margin-right: 20px;
+            }
+            .face {
+                display: flex;
+                align-items: center;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+                padding: 10px;
+                background: white;
+                border: 2px solid white;
+                color: $headerColor;
+                font-size: 25px;
+                
+                i{
+                    padding-top: 3px;
+                }
             }
         }
     }
