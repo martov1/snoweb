@@ -1,0 +1,17 @@
+
+
+header {
+    border: 1px salmon solid;
+    height: 20vh;
+    
+    #logo {
+        height: 20vh;
+        width: 20vh;
+        margin-left: 20px;
+        img{
+            position: absolute;
+            width: 20vh;
+            margin-top: 10vh;
+        }
+    }
+}

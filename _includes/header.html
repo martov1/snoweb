@@ -6,10 +6,14 @@ de todas las paginas del sitio asi como la barra de navegacion
 
 
 <header>
-    <p>Header</p>
-<a href="{{site.baseurl}}/" class="{% if page.url == '/' %} currentPage {% endif %}" >home</a>
-<a href="{{site.baseurl}}/paginas/ramas/manada" class="{% if page.url == '/paginas/ramas/manada' %} currentPage {% endif %}" >manada</a>
+    <div id="logo">
+        <img src="/assets/images/logo.png" >
+    </div>
+    <nav>
+        <a href="{{site.baseurl}}/" class="{% if page.url == '/' %} currentPage {% endif %}">home</a>
+        <a href="{{site.baseurl}}/paginas/ramas/manada" class="{% if page.url == '/paginas/ramas/manada' %} currentPage {% endif %}">manada</a>
+        <a>blah</a>
+        <a>blah</a>
+    </nav>
 
-<a>blah</a>
-<a>blah</a>
 </header>
