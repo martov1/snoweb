@@ -15,6 +15,7 @@ $headerColor: #006384;
  inclusiones generales 
  ****************/
 @import 'other/elements.scss';
+@import'other/mixins.scss';
 @import 'includes/header.scss';
 
 @import 'layouts/home.scss';

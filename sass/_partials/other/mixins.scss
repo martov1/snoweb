@@ -1,0 +1,4 @@
+
+@mixin colorGradient ($gradient){
+background: linear-gradient(rgba(0, 99, 132, gradient));
+}
