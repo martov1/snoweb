@@ -132,4 +132,13 @@
             }
         }
     }
+
+    .primera-Seccion__inferior{
+
+        margin-top: 20px;
+        >div{
+            min-height: 150px;
+            border: 2px solid black;
+        }
+    }
 }
