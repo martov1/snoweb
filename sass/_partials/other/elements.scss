@@ -24,9 +24,24 @@ i :hover {
 }
 
 /* transparent button */
-.button, .button :hover {
+.button, .button :hover , .button:visited , .button :active {
     border: 1px white solid;
     padding: 5px 10px 5px 10px;
     border-radius: 2px;
     text-decoration: none;
+    color:white;
+}
+
+/*
+Contenedor general, aparece en todas las paginas y mantiene el contenido
+de todo
+*/
+.main-container {
+    width: 95%;
+    margin: auto;
+    background-color: white;
+}
+
+html {
+    background-color: $headerColor;
 }
