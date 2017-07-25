@@ -13,29 +13,48 @@ layout: layout-default
 </section>
 <div class="main-container">
     <section class="primera-Seccion" id="primera-seccion-home">
-        <div class="primera-Seccion__superior">
-            <div class="primera-Seccion__superior__ramas">
+        <div class="primera-Seccion__superior row around-md">
+            <div class="primera-Seccion__superior__ramas col-xs-12 col-md-8">
                 <h1> Ramas y programas</h1>
-                <div class="primera-Seccion__ramas__listaderamas">
-                    <div class="primera-Seccion__ramas__listaderamas__botonderama">Manada</div>
-                    <div class="primera-Seccion__ramas__listaderamas__botonderama">Unidad</div>
-                    <div class="primera-Seccion__ramas__listaderamas__botonderama">Caminantes</div>
-                    <div class="primera-Seccion__ramas__listaderamas__botonderama">Rovers</div>
+                <div class="primera-Seccion__ramas__listaderamas row between-lg" >
+                    <div class="  col-lg-3 col-xs-6">
+                        <div class="primera-Seccion__ramas__listaderamas__botonderama primera-Seccion__ramas__listaderamas__botonderama--manada">
+
+                            <img src="../assets/images/manada.png"> Manada
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-xs-6">
+                        <div class="primera-Seccion__ramas__listaderamas__botonderama primera-Seccion__ramas__listaderamas__botonderama--unidad">
+                            <img src="../assets/images/unidad.png"> Unidad
+                        </div>
+                    </div>
+                    <div class=" col-lg-3 col-xs-6">
+                      <div class="primera-Seccion__ramas__listaderamas__botonderama primera-Seccion__ramas__listaderamas__botonderama--caminantes">
+                        <img src="../assets/images/caminantes.png"> Caminantes
+                      </div>
+                        
+                    </div>
+                    <div class=" col-lg-3 col-xs-6">
+                        <div class="primera-Seccion__ramas__listaderamas__botonderama primera-Seccion__ramas__listaderamas__botonderama--rovers ">
+                             <img src="../assets/images/rovers.png"> Rovers
+                        </div>
+                       
+                    </div>
                 </div>
             </div>
-            <div class="primera-Seccion__superior__noticias">
+            <div class="primera-Seccion__superior__noticias col-xs-12 col-md-3">
                 <h1>Novedades</h1>
-                <ul >
-                    {% for noticia in site.data.noticias  limit:2 %}
+                <ul>
+                    {% for noticia in site.data.noticias limit:2 %}
                     <li class="primera-Seccion__superior__noticias__noticia">
-                         <span>{{noticia.fecha}} </span>
-                         <span>
+                        <span>{{noticia.fecha}} </span>
+                        <span>
                             {{noticia.noticia}} 
                             {% if noticia.link != null %} 
                             <a href="{{noticia.link}}">mas...</a>
                             {% endif %}
                          </span>
-                        
+
                     </li>
                     {% endfor %}
                 </ul>

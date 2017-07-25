@@ -1,4 +1,9 @@
-
-@mixin colorGradient ($gradient){
-background: linear-gradient(rgba(0, 99, 132, gradient));
+@mixin colorGradient($gradient) {
+    background: linear-gradient(rgba(0, 99, 132, gradient));
 }
+
+@mixin imageGradient ($url, $color, $alpha) {
+    $col : rgba($color, $alpha);
+    background: linear-gradient($col, $col), url($url);;
+}
+
