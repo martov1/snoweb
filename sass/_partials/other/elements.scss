@@ -24,12 +24,12 @@ i :hover {
 }
 
 /* transparent button */
-.button, .button :hover , .button:visited , .button :active {
+.button, .button :hover, .button:visited, .button :active {
     border: 1px white solid;
     padding: 5px 10px 5px 10px;
     border-radius: 2px;
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 /*
@@ -39,9 +39,12 @@ de todo
 .main-container {
     width: 95%;
     margin: auto;
-     background: url('../assets/images/bg-repeat-3.png') repeat;
+    background: url("../assets/images/bg-repeat-4.png");
+    background-repeat: repeat;
+    box-shadow: 0px 0px 87px 17px rgba(97,97,97,0.69);
 }
 
 html {
-    background: url('../assets/images/bg-repeat-1.png') repeat;
+    background: url("../assets/images/bg-repeat-5.png") repeat;
+    
 }
