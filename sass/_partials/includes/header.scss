@@ -3,7 +3,8 @@ header {
     min-height: 81px;
     background-color: $headerColor;
     display: flex;
-
+    border-bottom: 2px white solid;
+    
     #logo {
         height: $headerHeight;
         min-width: 119px;
