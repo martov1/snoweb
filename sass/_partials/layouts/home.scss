@@ -47,9 +47,10 @@
         flex-wrap: wrap;
         margin-left: 20px;
         margin-right: 20px;
-        height: 50vh;
+        height: 40vh;
 
         .primera-Seccion__superior__ramas {
+
             flex-grow: 1;
             margin-right: 50px;
             display: flex;
@@ -58,6 +59,7 @@
             h1 {
                 background: rgba(0, 99, 132, 0.45);
                 padding: 5px;
+                box-shadow: 0px 0px 2px 2px rgba(97,97,97,0.69);
             }
 
             .primera-Seccion__ramas__listaderamas {
@@ -77,8 +79,30 @@
         }
 
         .primera-Seccion__superior__noticias {
+            flex-shrink: 0;
+            width: 20%;
             background: rgba(0, 99, 132, 0.45);
             padding: 30px;
+            padding-top: 10px;
+            padding-right: 10px;
+            ul {
+                list-style-type: none;
+                padding-left: 0px;
+                .primera-Seccion__superior__noticias__noticia{
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                }
+                .primera-Seccion__superior__noticias__noticia span:first-child{
+                    font-weight: 900;
+                    font-size: 19px;
+                    padding-bottom: 3px;
+                }
+                .primera-Seccion__superior__noticias__noticia span:last-child{
+                    font-size: 13px;
+                    padding-bottom: 5px;
+                }
+            }
         }
     }
 }

@@ -25,10 +25,17 @@ layout: layout-default
             </div>
             <div class="primera-Seccion__superior__noticias">
                 <h1>Novedades</h1>
-                <ul>
-                    {% for noticia in site.data.noticias %}
-                    <li>
-                        {{noticia.noticia}} {{noticia.fecha}} {{noticia.contenido}}
+                <ul >
+                    {% for noticia in site.data.noticias  limit:2 %}
+                    <li class="primera-Seccion__superior__noticias__noticia">
+                         <span>{{noticia.fecha}} </span>
+                         <span>
+                            {{noticia.noticia}} 
+                            {% if noticia.link != null %} 
+                            <a href="{{noticia.link}}">mas...</a>
+                            {% endif %}
+                         </span>
+                        
                     </li>
                     {% endfor %}
                 </ul>
