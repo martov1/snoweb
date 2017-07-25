@@ -4,25 +4,26 @@
 # la fecha , link y contenido con dos espacios.
 # todos los campos salvo "noticia" son opcionales.
 
+# LOS LINKS TIENEN QUE EMPEZAR CON HTTTP://
 
-- noticia: lalala
-  fecha: 10/05/16
-  contenido: lala
+- noticia: Almuerzo de los viejos scouts, anotate!
+  fecha: Sáb 2/4 - 19:30hs
+  contenido: 
+  link: http://www.google.com
+
+- noticia: Fogon de fin de año
+  fecha: Sáb 2/4 - 19:30hs
+  contenido: 
   link: 
 
 - noticia: lalala
-  fecha: 10/05/16
-  contenido: lala
-  link: 
-
-- noticia: lalala
-  fecha: 10/05/16
+  fecha: Sáb 2/4 - 19:30hs
   contenido: lala
 
 - noticia: lalala
-  fecha: 10/05/16
+  fecha: Sáb 2/4 - 19:30hs
   contenido: lala
 
 - noticia: lalala
-  fecha: 10/05/16
+  fecha: Sáb 2/4 - 19:30hs
   contenido: lala
