@@ -1,16 +1,43 @@
 --- 
-layout: layout-default
+layout: layout-default 
 ---
 
 <!-- Este es el layout para la pagina principal -->
 
-<div class="default-hero-section">
+<section class="default-hero-section">
     <div class="default-hero-section__titles">
-        <span >DESCUBRÍ</span>
-        <span > ALGO NUEVO</span>
-        <a class="button"> Conocenos</a>
+        <span>DESCUBRÍ</span>
+        <span> ALGO NUEVO</span>
+        <a class="button" href="#primera-seccion-home"> Conocenos</a>
     </div>
+</section>
+<div class="main-container">
+    <section class="primera-Seccion" id="primera-seccion-home">
+        <div class="primera-Seccion__superior">
+            <div class="primera-Seccion__superior__ramas">
+                <h1> Ramas y programas</h1>
+                <div class="primera-Seccion__ramas__listaderamas">
+                    <div>Manada</div>
+                    <div>Unidad</div>
+                    <div>Caminantes</div>
+                    <div>Rovers</div>
+                </div>
+            </div>
+            <div class="primera-Seccion__superior__noticias">
+                <h1>Novedades</h1>
+                <p>Noticias:</p>
+                <ul>
+                    {% for noticia in site.data.noticias %}
+                    <li>
+                        {{noticia.noticia}} {{noticia.fecha}} {{noticia.contenido}}
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </div>
+        <div class="primera-Seccion__links">
+            links!
+        </div>
+    </section>
+    {{content}}
 </div>
-
-
-{{content}}
