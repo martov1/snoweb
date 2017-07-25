@@ -39,9 +39,9 @@ de todo
 .main-container {
     width: 95%;
     margin: auto;
-    background-color: white;
+     background: url('../assets/images/bg-repeat-3.png') repeat;
 }
 
 html {
-    background-color: $headerColor;
+    background: url('../assets/images/bg-repeat-1.png') repeat;
 }
