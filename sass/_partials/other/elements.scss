@@ -1,4 +1,3 @@
-
 /* Facebook round icon*/
 .face {
     display: flex;
@@ -11,7 +10,9 @@
     border: 2px solid white;
     color: $headerColor;
     font-size: 25px;
+
     i {
+        color: $headerColor;
         padding-top: 3px;
     }
 }
