@@ -1,18 +1,18 @@
 # Aca van las noticias de la agrupa
-# las noticias empiezan con un guion y un espacio
-# el nombre de la noticia va con un espacio despues del guion.
-# la fecha , link y contenido con dos espacios.
-# todos los campos salvo "noticia" son opcionales.
+# en la pagina principal se muestran dos noticias en el mismo orden que aca
+# los campos noticia y fecha son obligatorios, los campos link y
+# nombre de link no son obligatorios.
 
 # LOS LINKS TIENEN QUE EMPEZAR CON HTTTP://
 
-- noticia: Almuerzo de los viejos scouts, anotate!
+- noticia: Almuerzo de los viejos scouts!
   fecha: Sáb 2/4 - 19:30hs
-  contenido: 
   link: http://www.google.com
+  nombre-de-link: anotate!
+
 
 - noticia: Fogon de fin de año
   fecha: Sáb 2/4 - 19:30hs
-  contenido: 
-  link: 
+  link: http://www.google.com
+  nombre-de-link: evento de facebook
 
