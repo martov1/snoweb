@@ -3,6 +3,8 @@ footer {
     padding-top: 20px;
     padding-left: 80px;
     padding-right: 80px;
+    padding-bottom: 80px;
+    min-height: 50vh;
 
     a, a:hover, p, h1, i {
         color: white;
@@ -10,9 +12,10 @@ footer {
     }
 }
 
+/* Esto separa los 3 elementos verticalmente cuando estas en un celular*/
 .footer__contacto, .footer__map, .footer__email {
-    padding-bottom: 80px;
-    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .footer__contacto {
@@ -54,5 +57,41 @@ footer {
             padding-left: 53px;
             padding-top: 40px;
         }
+    }
+}
+
+.footer__email {
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        margin-top: 0px;
+        margin-bottom: 15px;
+    }
+
+    input, textarea {
+        margin-bottom: 10px;
+    }
+
+    input, textarea, textarea:focus, input:focus {
+        width: 100%;
+        background: $inputBackgroundColor;
+        border: 1px solid white;
+        min-height: 25px;
+        color: white;
+        padding-left: 10px;
+    }
+
+    input::placeholder, textarea::placeholder {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+    }
+
+    textarea {
+        height: 100%;
+    }
+
+    .button {
+        margin-right: auto;
     }
 }
