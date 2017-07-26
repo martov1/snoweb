@@ -7,20 +7,19 @@ CTRL Enter
 
 Trabajo de mono:
     ✔ Elegir tecnologias para realizar el desarrollo @done (25/7/2017 21:55:25)
-    ☐ @high  hacer partes compartidas.
+    ✔ @high  hacer partes compartidas. @done (26/7/2017 3:14:09)
      ✔ hacer el header @done (25/7/2017 21:53:18)
-     ☐ hacer footer
+     ✔ hacer footer @done (26/7/2017 3:14:06)
       ✔ Hacer estructura basica @done (26/7/2017 2:09:50)
       ✔ reemplazar brujula de fontawesome por brujula del diseñador @done (26/7/2017 0:54:55)
       ✔ mapa google maps @done (26/7/2017 1:15:47)
-      ☐ @low Resolver tema email
-      ☐ hacer responsive
+      ✔ hacer responsive @done (26/7/2017 3:13:22)
     ☐ @high Hacer la pagina principal
      ✔ hacer hero section @done (25/7/2017 21:53:34)
      ☐ hacer primera seccion (Ramas, noticias, porque unirse,metodo scout, conoce a los diris)
       ✔ Hacer parte de  ramas @done (25/7/2017 23:33:02)
+       ☐ rotar los graficos de manada, unidad, rovers, etc
       ✔ hacer parte de noticias @done (25/7/2017 23:33:01)
-      ☐ rotar los graficos de manada, unidad, rovers, etc
       ☐ hacer links de metodo scout, conoce a los diris, etc
      ☐ hacer segunda seccion (Actividades y galeria).
     ☐ @high Hacer las paginas de las ramas.
@@ -41,8 +40,9 @@ Trabajo de mono:
 
 Cosas que requieren aprendizaje:
     ☐ @low Estudiar SEO y aplicarlo
+    ☐ @high entender como hacer fonts responsive
 
-Tareas para el final:
+    Tareas para el final:
     ✘ @critical cambiar el key de google maps @cancelled (26/7/2017 1:15:13)
-
+    ☐ @low Resolver tema email
     
