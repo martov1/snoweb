@@ -1,0 +1,35 @@
+footer {
+    background-color: $headerColor;
+    padding-top: 20px;
+
+    a, a:hover, p, h1, i {
+        color: white;
+        text-decoration: none;
+    }
+
+    .footer__contacto, .footer__map, .footer__email {
+        border: 2px solid black;
+        padding: 20px;
+        padding-top: 40px;
+    }
+
+    .footer__contacto {
+        padding-left: 40px;
+
+        .footer__contacto__nombreymail {
+            border-top: 2px solid white;
+            h1 { 
+                font-size: 30px;
+                padding-left: 0px;
+            }
+            div{ 
+                padding-bottom: 20px; 
+                padding-left: 23px;
+            }
+            .footer__contacto__nombreymail__mail{
+                padding-left: 0px;
+            }
+            
+        }
+    }
+}
