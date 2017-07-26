@@ -4,6 +4,7 @@ layout: layout-default
 
 <!-- Este es el layout para la pagina principal -->
 
+<!-- seccion "hero" con imagen grande -->
 <section class="default-hero-section">
     <div class="default-hero-section__titles">
         <span>DESCUBRÍ</span>
@@ -11,12 +12,19 @@ layout: layout-default
         <a class="button" href="#primera-seccion-home"> Conocenos</a>
     </div>
 </section>
+
+<!-- contenido de la pagina -->
 <div class="main-container">
+    <!-- aca va la primera seccion, esta dividida en dos, la seccion
+    superior que contiene las ramas y las noticias y la seccion inferior que contiene
+    los links diversas secciones de la pagina -->
     <section class="primera-Seccion" id="primera-seccion-home">
+         <!-- seccion superior -->
         <div class="primera-Seccion__superior row around-md">
+           <!-- ramas -->
             <div class="primera-Seccion__superior__ramas col-xs-12 col-lg-8">
                 <h1> Ramas y programas</h1>
-                <div class="primera-Seccion__ramas__listaderamas row between-lg" >
+                <div class="primera-Seccion__ramas__listaderamas row between-lg">
                     <div class="  col-lg-3 col-xs-6">
                         <div class="primera-Seccion__ramas__listaderamas__botonderama primera-Seccion__ramas__listaderamas__botonderama--manada">
 
@@ -29,19 +37,20 @@ layout: layout-default
                         </div>
                     </div>
                     <div class=" col-lg-3 col-xs-6">
-                      <div class="primera-Seccion__ramas__listaderamas__botonderama primera-Seccion__ramas__listaderamas__botonderama--caminantes">
-                        <img src="{{site.baseurl}}/assets/images/caminantes.png"> Caminantes
-                      </div>
-                        
+                        <div class="primera-Seccion__ramas__listaderamas__botonderama primera-Seccion__ramas__listaderamas__botonderama--caminantes">
+                            <img src="{{site.baseurl}}/assets/images/caminantes.png"> Caminantes
+                        </div>
+
                     </div>
                     <div class=" col-lg-3 col-xs-6">
                         <div class="primera-Seccion__ramas__listaderamas__botonderama primera-Seccion__ramas__listaderamas__botonderama--rovers ">
-                             <img src="{{site.baseurl}}/assets/images/rovers.png"> Rovers
+                            <img src="{{site.baseurl}}/assets/images/rovers.png"> Rovers
                         </div>
-                       
+
                     </div>
                 </div>
             </div>
+            <!-- noticias -->
             <div class="primera-Seccion__superior__noticias col-xs-12 col-lg-3">
                 <h1>Novedades</h1>
                 <ul>
@@ -60,17 +69,26 @@ layout: layout-default
                 </ul>
             </div>
         </div>
+        <!-- seccion inferior -->
         <div class="primera-Seccion__inferior row around-md">
             <div class="primera-Seccion__inferior col-md-3 col-sx-12">
                 <img src="">aa
             </div>
             <div class="primera-Seccion__inferior col-md-3 col-sx-12">
-                 <img src="">aa
+                <img src="">aa
             </div>
             <div class="primera-Seccion__inferior col-md-3 col-sx-12">
-                 <img src="">aa
+                <img src="">aa
             </div>
         </div>
+
+    
+    </section >
+    
+    <!-- aca va la segunda seccion -->
+
+    <section class="segunda-Seccion" id="segunda-seccion-home">
+
     </section>
     {{content}}
 </div>
