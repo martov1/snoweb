@@ -1,0 +1,37 @@
+docs https://marketplace.visualstudio.com/items?itemName=sandy081.todotasks
+
+hotkeys:
+ALT D
+ALT C
+CTRL Enter
+
+Trabajo de mono:
+    ✔ Elegir tecnologias para realizar el desarrollo @done (25/7/2017 21:55:25)
+    ☐ @high  hacer partes compartidas.
+     ✔ hacer el header @done (25/7/2017 21:53:18)
+     ☐ hacer footer
+    ☐ @high Hacer la pagina principal
+     ✔ hacer hero section @done (25/7/2017 21:53:34)
+     ☐ hacer primera seccion (Ramas, noticias, porque unirse,metodo scout, conoce a los diris)
+     ☐ hacer segunda seccion (Actividades y galeria).
+    ☐ @high Hacer las paginas de las ramas.
+     ☐ Manada
+     ☐ unidad
+     ☐ caminantes
+     ☐ rovers
+    ☐ @high hacer pagina quienes somos.
+     ☐ seccion nuestras actividades
+     ☐ seccion los dirigentes
+     ☐ seccion Nuestra historia
+    ☐ @high hacer pagina el scoutismo
+     ☐ seccion la mision.
+     ☐ seccion el metodo scout.
+    ☐ @low  Conseguir fotos para las paginas.
+    ☐ @low migrar el servidor a elserver.
+
+Cosas que requieren aprendizaje:
+    ☐ @low Estudiar SEO y aplicarlo
+
+
+
+    
