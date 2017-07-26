@@ -1,6 +1,8 @@
 footer {
     background-color: $headerColor;
     padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
 
     a, a:hover, p, h1, i {
         color: white;
@@ -8,28 +10,49 @@ footer {
     }
 
     .footer__contacto, .footer__map, .footer__email {
-        border: 2px solid black;
-        padding: 20px;
+        padding-bottom: 80px;
         padding-top: 40px;
     }
 
     .footer__contacto {
-        padding-left: 40px;
+        font-style: normal;
+        padding-right: 20px;
 
         .footer__contacto__nombreymail {
             border-top: 2px solid white;
-            h1 { 
+            margin-bottom: 20px;
+
+            h1 {
                 font-size: 30px;
                 padding-left: 0px;
+                margin-bottom: 10px;
             }
-            div{ 
-                padding-bottom: 20px; 
-                padding-left: 23px;
-            }
-            .footer__contacto__nombreymail__mail{
+
+            .footer__contacto__nombreymail__mail {
                 padding-left: 0px;
             }
-            
+        }
+
+        .footer__contacto__direccionyhorarios {
+            padding-top: 8px;
+
+            .footer__contacto__direccionyhorarios__direccion {
+                padding-left: 14px;
+
+                p {
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+
+                    &:first-child {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+
+            .footer__contacto__direccionyhorarios__horarios {
+                padding-left: 53px;
+                padding-top: 40px;
+            }
         }
     }
 }
