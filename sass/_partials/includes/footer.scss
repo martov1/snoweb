@@ -8,51 +8,51 @@ footer {
         color: white;
         text-decoration: none;
     }
+}
 
-    .footer__contacto, .footer__map, .footer__email {
-        padding-bottom: 80px;
-        padding-top: 40px;
+.footer__contacto, .footer__map, .footer__email {
+    padding-bottom: 80px;
+    padding-top: 40px;
+}
+
+.footer__contacto {
+    font-style: normal;
+    padding-right: 20px;
+
+    .footer__contacto__nombreymail {
+        border-top: 2px solid white;
+        margin-bottom: 20px;
+
+        h1 {
+            font-size: 30px;
+            padding-left: 0px;
+            margin-bottom: 10px;
+        }
+
+        .footer__contacto__nombreymail__mail {
+            padding-left: 0px;
+        }
     }
 
-    .footer__contacto {
-        font-style: normal;
-        padding-right: 20px;
+    .footer__contacto__direccionyhorarios {
+        padding-top: 8px;
 
-        .footer__contacto__nombreymail {
-            border-top: 2px solid white;
-            margin-bottom: 20px;
+        .footer__contacto__direccionyhorarios__direccion {
+            padding-left: 14px;
 
-            h1 {
-                font-size: 30px;
-                padding-left: 0px;
-                margin-bottom: 10px;
-            }
+            p {
+                margin-top: 0px;
+                margin-bottom: 0px;
 
-            .footer__contacto__nombreymail__mail {
-                padding-left: 0px;
+                &:first-child {
+                    margin-bottom: 5px;
+                }
             }
         }
 
-        .footer__contacto__direccionyhorarios {
-            padding-top: 8px;
-
-            .footer__contacto__direccionyhorarios__direccion {
-                padding-left: 14px;
-
-                p {
-                    margin-top: 0px;
-                    margin-bottom: 0px;
-
-                    &:first-child {
-                        margin-bottom: 5px;
-                    }
-                }
-            }
-
-            .footer__contacto__direccionyhorarios__horarios {
-                padding-left: 53px;
-                padding-top: 40px;
-            }
+        .footer__contacto__direccionyhorarios__horarios {
+            padding-left: 53px;
+            padding-top: 40px;
         }
     }
 }
