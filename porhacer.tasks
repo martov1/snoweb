@@ -5,15 +5,24 @@ ALT D
 ALT C
 CTRL Enter
 
-Trabajo de mono:
+Trabajo previo:
+
     ✔ Elegir tecnologias para realizar el desarrollo @done (25/7/2017 21:55:25)
-    ✔ @high  hacer partes compartidas. @done (26/7/2017 3:14:09)
+
+Trabajo de mono:
+
+
+    ☐ @high  hacer partes compartidas.
      ✔ hacer el header @done (25/7/2017 21:53:18)
+        ☐ Hacer responsive
+            ☐ burger menu
+            ☐ responsive typography
+            ☐ flex order para el texto de hero? 
      ✔ hacer footer @done (26/7/2017 3:14:06)
             ✔ Hacer estructura basica @done (26/7/2017 2:09:50)
             ✔ reemplazar brujula de fontawesome por brujula del diseñador @done (26/7/2017 0:54:55)
             ✔ mapa google maps @done (26/7/2017 1:15:47)
-            ✔ hacer responsive @done (26/7/2017 3:13:22)
+            ☐ hacer responsive (padding footer de 80 a 20px left y 10px right va)
     ☐ @high Hacer la pagina principal
      ✔ hacer hero section @done (25/7/2017 21:53:34)
      ☐ hacer primera seccion (Ramas, noticias, porque unirse,metodo scout, conoce a los diris)
@@ -35,16 +44,46 @@ Trabajo de mono:
     ☐ @high hacer pagina el scoutismo
      ☐ seccion la mision.
      ☐ seccion el metodo scout.
+
+Requiere de humanos:
+
     ☐ @low  Conseguir fotos para las paginas.
-    ☐ @low migrar el servidor a elserver.
+
+
+Hacer sitio responsive:
+
+    ☐ @low hacer el sitio responsive teniendo en cuenta viewport scale!.
+    ☐ @low usar las imagenes responsablemente con el curso de responsive images.
+    ☐ @low responsive typography
+    ☐ @low media query en los elementos que lo requieran
+
+Aplicar buenas tecnicas typograficas:
+
+    ☐ 40-70 characters in line (ch como unidad?)
+    ☐ Line height con buena proporcion
+    ☐ Letter spacing
+    ☐ SmartUnderlines
+    ☐ Smartquotes  http://smartquotesforsmartpeople.com/
+    ☐ No usar blanco sobre negro, en vez de eso tal vez #333 (menos negro) y #f6f6f6 (menos blanco)
+    ☐ Kerning 
+    ☐ text-rendering: optimizeLegibility
+
+Aplicar buenas tecnicas de SEO:
+
+    ☐ @low Estudiar SEO y aplicarlo
+    ☐ @low usar los HTML tags nuevos y de forma correcta (nav, main, etc)
+
 
 Cosas que requieren aprendizaje:
-    ☐ @low Estudiar SEO y aplicarlo
-    ☐ @high entender como hacer fonts responsive
-    ☐ @high hacer el sitio responsive teniendo en cuenta viewport scale!.
+    
     ☐ @critical  http://gymnasium.aquent.com/courses/GYM/101/0/courseware/eceb571b0bec420a93ca18c7fba8ee55/8815181df44442b2add6648abcfe0cf5/
     ☐ @critical  https://www.udacity.com/course/responsive-web-design-fundamentals--ud893
-    Tareas para el final:
+    ☐ @critical images https://www.youtube.com/watch?v=1Pxj9955I2c&list=PLAwxTw4SYaPlMK4ycui-adGBe2erTgMkY
+
+    
+    
+Tareas para el final:
     ✘ @critical cambiar el key de google maps @cancelled (26/7/2017 1:15:13)
     ☐ @low Resolver tema email
-    
+    ☐ @low migrar el servidor a elserver.
+
