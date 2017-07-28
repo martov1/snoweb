@@ -1,10 +1,10 @@
 footer {
     background-color: $headerColor;
     padding-top: 20px;
-    padding-left: 80px;
-    padding-right: 80px;
+      padding-left: 7%;
+    padding-right: 5%;
     padding-bottom: 80px;
-    
+
 
     a, a:hover, p, h1, i {
         color: white;
@@ -18,11 +18,13 @@ footer {
     padding-top: 20px;
 }
 
-@media screen and (max-width: 992px ) {
+/* Dale al map mas altura en dispositivos pequeños*/
+@media screen and (max-width: 1023px ) {
     .footer__map, .footer__email {
-        height: 40vh;
+        height: 70vh;
     }
 }
+
 .footer__contacto {
     font-style: normal;
     padding-right: 20px;
