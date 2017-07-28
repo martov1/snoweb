@@ -9,7 +9,7 @@
     background: white;
     border: 2px solid white;
     color: $headerColor;
-    font-size: 25px;
+    font-size: 1.5rem;
 
     i {
         color: $headerColor;
@@ -41,10 +41,9 @@ de todo
     margin: auto;
     background: url("../assets/images/bg-repeat-4.png");
     background-repeat: repeat;
-    box-shadow: 0px 0px 87px 17px rgba(97,97,97,0.69);
+    box-shadow: 0px 0px 87px 17px rgba(97, 97, 97, 0.69);
 }
 
 html {
     background: url("../assets/images/bg-repeat-5.png") repeat;
-    
 }
