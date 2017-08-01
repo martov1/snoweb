@@ -1,3 +1,7 @@
+/*
+Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
+*/
+
 .default-hero-section {
     display: flex;
     flex-direction: column;
@@ -45,8 +49,6 @@
         padding: 10px 25px 10px 25px;
         margin-top: 40px;
 
-      
-
         @media screen and (max-width: 450px) {
             font-size: 6vw;
         }
@@ -54,6 +56,7 @@
         @media screen and (min-width: 450px) and (max-width: 600px) {
             font-size: 5vw;
         }
+
         @media screen and (orientation: portrait) {
             position: absolute;
             bottom: 20px;
@@ -66,15 +69,19 @@
     }
 }
 
+/*
+Primera seccion con los botones de las ramas, las noticias y los links principales
+*/
+
 .primera-Seccion {
+    padding-left: 20px;
+    padding-right: 20px;
+
     h1 {
         margin-top: 0px;
     }
 
     .primera-Seccion__superior {
-        padding-left: 20px;
-        padding-right: 20px;
-
         .primera-Seccion__superior__ramas {
             display: flex;
             flex-direction: column;
@@ -171,10 +178,56 @@
 
     .primera-Seccion__inferior {
         margin-top: 20px;
+        @media screen and (min-width:900px){
+            margin-top: 50px;
+        }
+        .primera-Seccion__inferior__porque-Unirse,
+        .primera-Seccion__inferior__conoce-a-los-diris,
+        .primera-Seccion__inferior__metodo-scout {
+            border: 4px solid white;
+            color: white;
+            box-shadow: 0px 0px 5px 1px rgba(107, 106, 107, 1);
+            min-height: 150px;
+            height: 40vh;
+            width: 100%;
+            font-size: 1.3rem;
+            min-height: 40vh;
+            @media screen and (orientation: portrait) {
+                height: 50vh;
+            }
+        }
 
         > div {
-            min-height: 150px;
-            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            max-width: 100%;
+
+            h1 {
+                border-top: 2px solid white;
+                margin-left: 5%;
+                margin-right: 5%;
+                margin-top: 10%;
+                padding-top: 8%;
+            }
+        }
+
+        .primera-Seccion__inferior__porque-Unirse {
+            background: linear-gradient(rgba(0, 99, 132, 0.3), rgba(0, 99, 132, 0.3)), url("../assets/images/porqueunirse.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .primera-Seccion__inferior__conoce-a-los-diris {
+            background: linear-gradient(rgba(0, 99, 132, 0.3), rgba(0, 99, 132, 0.3)), url("../assets/images/conocealosdiris.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        .primera-Seccion__inferior__metodo-scout {
+            background: linear-gradient(rgba(0, 99, 132, 0.3), rgba(0, 99, 132, 0.3)), url("../assets/images/metodoscout.jpg");
+            background-size: cover;
+            background-position: center;
         }
     }
 }
