@@ -1,0 +1,38 @@
+/*
+Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
+*/
+
+.manada-hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh - $headerHeight;
+    background: linear-gradient(rgba(0, 99, 132, 0.45), rgba(0, 99, 132, 0.45)), url("../assets/images/manadahero.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    .default-hero-section__titles {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .default-hero-section__titles__large-titles {
+        font-size: 3rem;
+
+        @media screen and (max-width: 450px) {
+            font-size: 11vw;
+        }
+
+        @media screen and (min-width: 450px) and (max-width: 1136px) {
+            font-size: 8vw;
+        }
+    }
+
+}
+
+.manada-primera-seccion{
+        background: url("../assets/images/bg-repeat-4.png");
+
+}
