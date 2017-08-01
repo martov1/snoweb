@@ -323,13 +323,7 @@ Segunda seccion, con algo de informacion sobre las actividades y una galeria de 
         column-count: 5;
 
         @media (max-width: 500px) {
-            -webkit-column-count: 1;
-
-            /* Chrome, Safari, Opera */
-            -moz-column-count: 1;
-
-            /* Firefox */
-            column-count: 1;
+            display: none;
         }
 
         img {
