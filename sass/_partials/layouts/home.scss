@@ -127,19 +127,19 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
                 }
 
                 .primera-Seccion__ramas__listaderamas__botonderama--manada {
-                    @include imageGradient("../assets/images/bg-repeat-2.png", $manada, 0.5);
+                    @include imageGradient("../assets/images/bg-repeat-2-a.png", $manada, 0.5);
                 }
 
                 .primera-Seccion__ramas__listaderamas__botonderama--unidad {
-                    @include imageGradient("../assets/images/bg-repeat-2.png", $unidad, 0.5);
+                    @include imageGradient("../assets/images/bg-repeat-2-b.png", $unidad, 0.5);
                 }
 
                 .primera-Seccion__ramas__listaderamas__botonderama--caminantes {
-                    @include imageGradient("../assets/images/bg-repeat-2.png", $caminantes, 0.5);
+                    @include imageGradient("../assets/images/bg-repeat-2-c.png", $caminantes, 0.5);
                 }
 
                 .primera-Seccion__ramas__listaderamas__botonderama--rovers {
-                    @include imageGradient("../assets/images/bg-repeat-2.png", $rovers, 0.5);
+                    @include imageGradient("../assets/images/bg-repeat-2-d.png", $rovers, 0.5);
                 }
             }
         }

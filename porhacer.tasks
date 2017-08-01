@@ -27,25 +27,29 @@ Crear y estilar contenido:
      ✔ hacer hero section @done (25/7/2017 21:53:34)
      ✔ hacer primera seccion (Ramas, noticias, porque unirse,metodo scout, conoce a los diris) @done (1/8/2017 16:56:27)
       ✔ Hacer parte de  ramas @done (25/7/2017 23:33:02)
-       
-       ☐ rotar los graficos de manada, unidad, rovers, etc
+       ✔ rotar los graficos de manada, unidad, rovers, etc @done (1/8/2017 19:25:48)
       ✔ hacer parte de noticias @done (25/7/2017 23:33:01)
       ✔ hacer links de metodo scout, conoce a los diris, etc @done (1/8/2017 16:56:30)
-     ☐ hacer segunda seccion (Actividades y galeria).
+     ✔ hacer segunda seccion (Actividades y galeria). @done (1/8/2017 19:20:04)
         ✔ Hacer seccion de "nuestras actividades" @done (1/8/2017 18:37:00)
-        ☐ Hacer que "nuestras actividades" sea editable
+        ✔ Hacer que "nuestras actividades" sea editable @done (1/8/2017 19:19:17)
             ☐ Corregir los SVGs, no se exportaron bien y se ven distintos
-        ☐ Hacer galleria, usar http://photoswipe.com/
+        ✘ Hacer galleria, usar http://photoswipe.com/ @cancelled (1/8/2017 19:19:03)
+        ☐ Elegir fotos copadas para la galeria y ponerlas
+
+
     ☐ @high Hacer las paginas de las ramas.
      ☐ Manada
      ☐ unidad
      ☐ caminantes
      ☐ rovers
+
     ☐ @high hacer pagina quienes somos.
      ☐ seccion nuestras actividades
      ☐ seccion los dirigentes
       ☐ Acomodar de tal forma que sea facilmente editable
      ☐ seccion Nuestra historia
+
     ☐ @high hacer pagina el scoutismo
      ☐ seccion la mision.
      ☐ seccion el metodo scout.
