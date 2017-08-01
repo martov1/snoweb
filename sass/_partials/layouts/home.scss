@@ -290,6 +290,7 @@ Segunda seccion, con algo de informacion sobre las actividades y una galeria de 
             padding-right: 20px;
             margin-top: 20px;
             margin-bottom: 20px;
+
             /*alinea todo al centro, util cuando estas en el telefono*/
             display: flex;
             flex-direction: column;
@@ -307,6 +308,33 @@ Segunda seccion, con algo de informacion sobre las actividades y una galeria de 
             hyphens: auto;
             color: $textoClaro;
             font-size: 1.1rem;
+        }
+    }
+
+    .segunda-Seccion__galeria {
+        padding-left: 5%;
+        padding-right: 5%;
+        -webkit-column-count: 5;
+
+        /* Chrome, Safari, Opera */
+        -moz-column-count: 5;
+
+        /* Firefox */
+        column-count: 5;
+
+        @media (max-width: 500px) {
+            -webkit-column-count: 1;
+
+            /* Chrome, Safari, Opera */
+            -moz-column-count: 1;
+
+            /* Firefox */
+            column-count: 1;
+        }
+
+        img {
+            width: 100%;
+            padding: 3px 0;
         }
     }
 }
