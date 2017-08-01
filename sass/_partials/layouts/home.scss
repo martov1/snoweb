@@ -279,4 +279,33 @@ Segunda seccion, con algo de informacion sobre las actividades y una galeria de 
             }
         }
     }
+
+    .segunda-Seccion__contenido {
+        padding-left: 5%;
+        padding-right: 5%;
+
+        .segunda-Seccion__contenido__contenedor {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            /*alinea todo al centro, util cuando estas en el telefono*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            color: $textoAzulado;
+            text-align: center;
+        }
+
+        p {
+            max-width: 40ch;
+            text-align: justify;
+            hyphens: auto;
+            color: $textoClaro;
+            font-size: 1.1rem;
+        }
+    }
 }
