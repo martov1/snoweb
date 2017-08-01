@@ -7,22 +7,36 @@
     background: linear-gradient(rgba(0, 99, 132, 0.45), rgba(0, 99, 132, 0.45)), url("../assets/images/bg1.JPG");
     background-size: cover;
     background-position: center;
-    font-size: 5rem;
     color: white;
 
     .default-hero-section__titles {
         display: flex;
         flex-direction: column;
     }
+
+    .default-hero-section__titles__large-titles {
+        font-size: 5rem;
+
+        @media screen and (max-width: 450px) {
+            font-size: 11vw;
+        }
+
+        @media screen and (min-width: 450px) and (max-width: 1136px) {
+            font-size: 8vw;
+        }
+    }
+
     /*first title in italics*/
     div .default-hero-section__titles__large-titles:first-child {
         font-style: italic;
         font-weight: 900;
     }
+
     /*margin for second title */
     div .default-hero-section__titles__large-titles:nth-child(2) {
-        margin-left: 90px;
+        margin-left: 2ch;
     }
+
     /*styles for button "conocenos" */
     .default-hero-section__titles__large-titles__conocenos {
         font-size: 1.9rem;
@@ -30,6 +44,25 @@
         font-weight: 900;
         padding: 10px 25px 10px 25px;
         margin-top: 40px;
+
+      
+
+        @media screen and (max-width: 450px) {
+            font-size: 6vw;
+        }
+
+        @media screen and (min-width: 450px) and (max-width: 600px) {
+            font-size: 5vw;
+        }
+        @media screen and (orientation: portrait) {
+            position: absolute;
+            bottom: 20px;
+        }
+
+        /* 
+        @media screen and (min-width: 450px) and (max-width: 1136px){
+            font-size: 8vw;
+        } */
     }
 }
 
