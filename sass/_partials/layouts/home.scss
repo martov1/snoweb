@@ -76,6 +76,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
 .primera-Seccion {
     padding-left: 20px;
     padding-right: 20px;
+    background: url("../assets/images/bg-repeat-4.png");
 
     /* necesitas margin-bottom para que el logo de la segunda
      seccion encaje en el background de la primera */
@@ -86,6 +87,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
     }
 
     .primera-Seccion__superior {
+        
         .primera-Seccion__superior__ramas {
             display: flex;
             flex-direction: column;
