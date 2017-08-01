@@ -32,7 +32,7 @@ Crear y estilar contenido:
       ✔ hacer links de metodo scout, conoce a los diris, etc @done (1/8/2017 16:56:30)
      ✔ hacer segunda seccion (Actividades y galeria). @done (1/8/2017 19:20:04)
         ✔ Hacer seccion de "nuestras actividades" @done (1/8/2017 18:37:00)
-        ✔ Hacer que "nuestras actividades" sea editable @done (1/8/2017 19:19:17)
+        ☐ Hacer que "nuestras actividades" sea editable
             ☐ Corregir los SVGs, no se exportaron bien y se ven distintos
         ✘ Hacer galleria, usar http://photoswipe.com/ @cancelled (1/8/2017 19:19:03)
         ☐ Elegir fotos copadas para la galeria y ponerlas
