@@ -79,8 +79,11 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
     background: url("../assets/images/bg-repeat-4.png");
 
     /* necesitas padding-bottom para que el logo de la segunda
-     seccion encaje en el background de la primera */
-    padding-bottom: 50px;
+     seccion encaje en el background de la primera, el logo de la segunda
+     seccion mide 20vh y solapa la mitad de eso sobre esta seccion, entonces
+     le damos un padding de 15vh para que tenga espacio
+      */
+    padding-bottom: 15vh;
 
     h1 {
         margin-top: 0px;
@@ -98,7 +101,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
                 padding: 10px;
                 padding-left: 30px;
                 box-shadow: 0px 0px 2px 2px rgba(97, 97, 97, 0.69);
-                color: #3C3C3B;
+                color: $textoClaro;
                 margin-bottom: 0px;
             }
 
@@ -153,7 +156,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
             box-shadow: 0px 0px 0px 6px rgba(97, 97, 97, 0.23);
 
             h1 {
-                color: #3C3C3B;
+                color: $textoClaro;
                 border-bottom: rgba(126, 127, 126, 0.48) solid 2px;
             }
 
@@ -207,6 +210,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
             @media screen and (orientation: portrait) {
                 height: 50vh;
             }
+
             /* Texto de los botones */
             h1 {
                 border-top: 2px solid white;
@@ -240,6 +244,39 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
             background: linear-gradient(rgba(0, 99, 132, 0.3), rgba(0, 99, 132, 0.3)), url("../assets/images/metodoscout.jpg");
             background-size: cover;
             background-position: center;
+        }
+    }
+}
+
+/* 
+Segunda seccion, con algo de informacion sobre las actividades y una galeria de fotos
+*/
+
+.segunda-Seccion {
+    .segunda-Seccion__titulo-y-logo {
+        .segunda-Seccion__titulo-y-logo__logo {
+            /*El logo debe solapar el background de la seccion de arriba*/
+            height: 20vh;
+            margin-top: -10vh;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+
+            /* El logo debe ser mas pequeño en pantallas chicas */
+            @media screen and (max-width: 770px) {
+                height: 15vh;
+                margin-top: -7.5vh;
+            }
+        }
+
+        .segunda-Seccion__titulo-y-logo__titulo {
+            color: $textoObscuro;
+            font-size: 3rem;
+            text-align: center;
+
+            @media screen and (max-width: 320px) {
+                font-size: 2.3rem;
+            }
         }
     }
 }
