@@ -192,14 +192,14 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
             width: 100%;
             font-size: 1.3rem;
             min-height: 40vh;
+            text-align: left;
+            
             @media screen and (orientation: portrait) {
                 height: 50vh;
             }
         }
 
         > div {
-            display: flex;
-            justify-content: center;
             margin-bottom: 20px;
             max-width: 100%;
 
@@ -208,7 +208,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
                 margin-left: 5%;
                 margin-right: 5%;
                 margin-top: 10%;
-                padding-top: 8%;
+                padding-top: 3%;
             }
         }
 
