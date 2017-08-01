@@ -77,6 +77,10 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
     padding-left: 20px;
     padding-right: 20px;
 
+    /* necesitas margin-bottom para que el logo de la segunda
+     seccion encaje en el background de la primera */
+    margin-bottom: 50px;
+
     h1 {
         margin-top: 0px;
     }
@@ -86,7 +90,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
             display: flex;
             flex-direction: column;
             margin-top: 30px;
-
+            /* Titulo ramas y programas */
             h1 {
                 background: rgba(0, 99, 132, 0.45);
                 padding: 10px;
@@ -99,7 +103,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
             .primera-Seccion__ramas__listaderamas {
                 flex-grow: 1;
 
-                .col-xs-6 {
+                >div {
                     margin-top: 20px;
                 }
 
@@ -178,10 +182,12 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
 
     .primera-Seccion__inferior {
         margin-top: 20px;
+
         /* Mas division entre la seccion inferior y la superior cuando estas en desktop */
-        @media screen and (min-width:900px){
+        @media screen and (min-width: 900px) {
             margin-top: 50px;
         }
+
         .primera-Seccion__inferior__porque-Unirse,
         .primera-Seccion__inferior__conoce-a-los-diris,
         .primera-Seccion__inferior__metodo-scout {
@@ -194,7 +200,8 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
             font-size: 1.3rem;
             min-height: 40vh;
             text-align: left;
-             /* quiero que los botones sean mas altos en los telefonos */
+
+            /* quiero que los botones sean mas altos en los telefonos */
             @media screen and (orientation: portrait) {
                 height: 50vh;
             }
@@ -212,7 +219,6 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
                 padding-top: 3%;
             }
         }
-
 
         /* imgenes de los botones! */
         .primera-Seccion__inferior__porque-Unirse {
