@@ -178,6 +178,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
 
     .primera-Seccion__inferior {
         margin-top: 20px;
+        /* Mas division entre la seccion inferior y la superior cuando estas en desktop */
         @media screen and (min-width:900px){
             margin-top: 50px;
         }
@@ -193,7 +194,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
             font-size: 1.3rem;
             min-height: 40vh;
             text-align: left;
-            
+             /* quiero que los botones sean mas altos en los telefonos */
             @media screen and (orientation: portrait) {
                 height: 50vh;
             }
@@ -212,6 +213,8 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
             }
         }
 
+
+        /* imgenes de los botones! */
         .primera-Seccion__inferior__porque-Unirse {
             background: linear-gradient(rgba(0, 99, 132, 0.3), rgba(0, 99, 132, 0.3)), url("../assets/images/porqueunirse.jpg");
             background-size: cover;
