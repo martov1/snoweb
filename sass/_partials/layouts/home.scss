@@ -78,20 +78,20 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
     padding-right: 20px;
     background: url("../assets/images/bg-repeat-4.png");
 
-    /* necesitas margin-bottom para que el logo de la segunda
+    /* necesitas padding-bottom para que el logo de la segunda
      seccion encaje en el background de la primera */
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 
     h1 {
         margin-top: 0px;
     }
 
     .primera-Seccion__superior {
-        
         .primera-Seccion__superior__ramas {
             display: flex;
             flex-direction: column;
             margin-top: 30px;
+
             /* Titulo ramas y programas */
             h1 {
                 background: rgba(0, 99, 132, 0.45);
@@ -105,7 +105,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
             .primera-Seccion__ramas__listaderamas {
                 flex-grow: 1;
 
-                >div {
+                > div {
                     margin-top: 20px;
                 }
 
@@ -207,12 +207,7 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
             @media screen and (orientation: portrait) {
                 height: 50vh;
             }
-        }
-
-        > div {
-            margin-bottom: 20px;
-            max-width: 100%;
-
+            /* Texto de los botones */
             h1 {
                 border-top: 2px solid white;
                 margin-left: 5%;
@@ -220,6 +215,12 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
                 margin-top: 10%;
                 padding-top: 3%;
             }
+        }
+
+        /* algunas propiedades de el contenedor de los botones */
+        > div {
+            margin-bottom: 20px;
+            max-width: 100%;
         }
 
         /* imgenes de los botones! */
