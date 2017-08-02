@@ -17,13 +17,13 @@
 
   <!-- normalizador de CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" crossorigin="anonymous">
-  
+
   <!-- otros recursos de CDN -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
-   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
-    <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
-       <link href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" rel="stylesheet"> 
- 
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dekko" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" rel="stylesheet">
+
   <!-- mi hoja de estilos -->
   <link rel="stylesheet" href="{{site.baseurl}}/sass/styles.css?v={{site.time}}">
 
@@ -32,7 +32,7 @@
   <![endif]-->
 </head>
 
-{% include header.html  %}
+{% include header.html %}
 
 <body>
   <script src="{{site.baseurl}}/js/scripts.js"></script>
@@ -41,5 +41,6 @@
 </body>
 
 {% include footer.html %}
-
+<script src="{{site.baseurl}}/assets/js/smartquotes.js"></script>
+<script>smartquotes()</script>
 </html>
