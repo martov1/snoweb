@@ -47,8 +47,12 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
+        @media screen and (min-width:650px){
+            font-size: 1.1rem;
+        }
+
         .manada-primera-seccion__parrafos__parrafo{
-            max-width: 60ch;
+            max-width: 50ch;
             min-width: 40ch;
             hyphens: auto;
             padding-left: 3%;
