@@ -13,10 +13,11 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
     background-position: center;
     color: white;
     border-bottom: 3px solid transparentize($headerColor, 0.5);
-
+    
     .default-hero-section__titles {
         display: flex;
         flex-direction: column;
+            text-align: center;
     }
 
     .default-hero-section__titles__large-titles {
@@ -45,9 +46,13 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        p{
+        flex-wrap: wrap;
+        .manada-primera-seccion__parrafos__parrafo{
             max-width: 60ch;
+            min-width: 40ch;
             hyphens: auto;
+            padding-left: 3%;
+            padding-right: 3%
         }
         span{
             font-size: 1.3rem;
