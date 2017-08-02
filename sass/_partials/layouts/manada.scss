@@ -29,10 +29,29 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
             font-size: 8vw;
         }
     }
-
 }
 
-.manada-primera-seccion{
-        background: url("../assets/images/bg-repeat-4.png");
+.manada-primera-seccion {
+    background: url("../assets/images/bg-repeat-4.png");
+}
 
+.manada-segunda-Seccion__galeria {
+    padding-left: 5%;
+    padding-right: 5%;
+    -webkit-column-count: 4;
+
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 4;
+
+    /* Firefox */
+    column-count: 4;
+
+    @media (max-width: 500px) {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        padding: 3px 0;
+    }
 }
