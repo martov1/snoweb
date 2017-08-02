@@ -1,0 +1,17 @@
+/*
+Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
+*/
+
+.unidad-hero-section {
+     @extend .hero-section;
+
+    background: linear-gradient(rgba(0, 99, 132, 0.45), rgba(0, 99, 132, 0.45)), url("../assets/images/unidadhero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.unidad-segunda-Seccion__galeria{
+    @extend .galleria;
+    padding-left: 3%;
+    padding-right: 3%;
+    background: url(../assets/images/bg-repeat-4.png);
+}
