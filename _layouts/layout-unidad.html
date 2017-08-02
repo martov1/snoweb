@@ -21,15 +21,10 @@ active: unidad
 
     <section class="unidad-segunda-Seccion__galeria">
  
-        <img src="{{site.baseurl}}/assets/images/galerias/unidad/1-min.jpg">
-        <img src="{{site.baseurl}}/assets/images/galerias/unidad/2-min.jpg">
-        <img src="{{site.baseurl}}/assets/images/galerias/unidad/3-min.jpg">
-        <img src="{{site.baseurl}}/assets/images/galerias/unidad/4-min.jpg">
-        <img src="{{site.baseurl}}/assets/images/galerias/unidad/5-min.jpg">
-        <img src="{{site.baseurl}}/assets/images/galerias/unidad/6-min.jpg">
-        <img src="{{site.baseurl}}/assets/images/galerias/unidad/7-min.jpg">
-        <img src="{{site.baseurl}}/assets/images/galerias/unidad/8-min.jpg">
-
+         {% for image in site.static_files %}
+         {% if image.path contains 'assets/images/galerias/unidad'  %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+         {% endif %} {% endfor %}
 
     </section>
 
