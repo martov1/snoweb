@@ -12,6 +12,7 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
     background-size: cover;
     background-position: center;
     color: white;
+    border-bottom: 3px solid transparentize($headerColor, 0.5);
 
     .default-hero-section__titles {
         display: flex;
