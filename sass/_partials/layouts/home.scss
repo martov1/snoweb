@@ -112,6 +112,11 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
                     margin-top: 20px;
                 }
 
+                a, a:visited {
+                    text-decoration: none;
+                    color: white;
+                }
+
                 .primera-Seccion__ramas__listaderamas__botonderama {
                     display: flex;
                     flex-direction: column;
@@ -124,6 +129,12 @@ Primera seccion con los botones de las ramas, las noticias y los links principal
                     color: white;
                     box-shadow: 1px -1px 5px 2px rgba(107, 107, 107, 1);
                     font-size: 1.3rem;
+
+                    img:hover {
+                        -moz-transform: scale(1.1);
+                        -webkit-transform: scale(1.1);
+                        transform: scale(1.1);
+                    }
                 }
 
                 .primera-Seccion__ramas__listaderamas__botonderama--manada {
