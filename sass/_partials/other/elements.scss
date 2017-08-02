@@ -63,9 +63,10 @@ html {
     @media (max-width: 500px) {
         display: none;
     }
-
+    
     img {
         width: 100%;
-        padding: 0px;
+        padding-bottom: 3px;
+        display: block;
     }
 }
