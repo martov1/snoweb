@@ -63,10 +63,77 @@ html {
     @media (max-width: 500px) {
         display: none;
     }
-    
+
     img {
         width: 100%;
         padding-bottom: 3px;
         display: block;
+    }
+}
+
+/* Hero section que se usa en las paginas de las ramas */
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh - $headerHeight;
+    color: white;
+    border-bottom: 3px solid transparentize($headerColor, 0.5);
+
+    .default-hero-section__titles {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .default-hero-section__titles__large-titles {
+        font-size: 3rem;
+
+        @media screen and (max-width: 450px) {
+            font-size: 11vw;
+        }
+
+        @media screen and (min-width: 450px) and (max-width: 1136px) {
+            font-size: 8vw;
+        }
+    }
+}
+
+
+/* Seccion de textos que se usan en las paginas de las ramas */
+
+.rama-primera-seccion {
+    background: url("../assets/images/bg-repeat-4.png");
+    padding-bottom: 20px;
+
+    h1 {
+        text-align: center;
+        color: $textoObscuro;
+    }
+
+    .rama-primera-seccion__parrafos {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+        @media screen and (min-width: 650px) {
+            font-size: 1.1rem;
+        }
+
+        .rama-primera-seccion__parrafos__parrafo {
+            max-width: 50ch;
+            min-width: 40ch;
+            hyphens: auto;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+
+        span {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+        }
     }
 }

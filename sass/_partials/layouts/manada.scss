@@ -3,37 +3,14 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
 */
 
 .manada-hero-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 60vh - $headerHeight;
+     @extend .hero-section;
+
     background: linear-gradient(rgba(0, 99, 132, 0.45), rgba(0, 99, 132, 0.45)), url("../assets/images/manadahero.jpg");
     background-size: cover;
     background-position: center;
-    color: white;
-    border-bottom: 3px solid transparentize($headerColor, 0.5);
-    
-    .default-hero-section__titles {
-        display: flex;
-        flex-direction: column;
-            text-align: center;
-    }
-
-    .default-hero-section__titles__large-titles {
-        font-size: 3rem;
-
-        @media screen and (max-width: 450px) {
-            font-size: 11vw;
-        }
-
-        @media screen and (min-width: 450px) and (max-width: 1136px) {
-            font-size: 8vw;
-        }
-    }
 }
 
-.manada-primera-seccion {
+.rama-primera-seccion {
     background: url("../assets/images/bg-repeat-4.png");
     padding-bottom: 20px;
 
@@ -42,7 +19,7 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
         color: $textoObscuro;
     }
 
-    .manada-primera-seccion__parrafos{
+    .rama-primera-seccion__parrafos{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -51,7 +28,7 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
             font-size: 1.1rem;
         }
 
-        .manada-primera-seccion__parrafos__parrafo{
+        .rama-primera-seccion__parrafos__parrafo{
             max-width: 50ch;
             min-width: 40ch;
             hyphens: auto;

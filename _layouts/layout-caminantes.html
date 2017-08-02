@@ -1,10 +1,10 @@
 --- 
 layout: layout-default 
-active: manada 
+active: caminantes 
 ---
 
 
-<section class="manada-hero-section">
+<section class="caminantes-hero-section">
     <div class="default-hero-section__titles">
         <span class="default-hero-section__titles__large-titles">Ramas y Programas</span>
     </div>
@@ -13,18 +13,15 @@ active: manada
 
     <section class="rama-primera-seccion">
         {% include menuramas.html %}
-        <h1>Manda Cotal-Hue 7 a 11 años</h1>
+        <h1>Caminantes Columba - 14 a 17 años</h1>
         <div class="rama-primera-seccion__parrafos">
             {{content}}
         </div>
     </section>
 
-    <section class="manada-segunda-Seccion__galeria">
-
-        {% for image in site.static_files %}
-         {% if image.path contains 'assets/images/galerias/manada'  %}
-        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
-         {% endif %} {% endfor %}
+    <section class="caminantes-segunda-Seccion__galeria">
+        {% for image in site.static_files %} {% if image.path contains 'assets/images/galerias/caminantes' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" /> {% endif %} {% endfor %}
 
 
     </section>
