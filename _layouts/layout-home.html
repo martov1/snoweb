@@ -131,17 +131,11 @@ layout: layout-default
             </div>
         </div>
         <div class="segunda-Seccion__galeria ">
-            <img src="{{site.baseurl}}/assets/images/galerias/home/1-min.jpg">
-            <img src="{{site.baseurl}}/assets/images/galerias/home/2-min.jpg">
-            <img src="{{site.baseurl}}/assets/images/galerias/home/3-min.jpg">
-            <img src="{{site.baseurl}}/assets/images/galerias/home/4-min.jpg">
-            <img src="{{site.baseurl}}/assets/images/galerias/home/5-min.jpg">
-            <img src="{{site.baseurl}}/assets/images/galerias/home/6-min.jpg">
-            <img src="{{site.baseurl}}/assets/images/galerias/home/7-min.jpg">
-            <img src="{{site.baseurl}}/assets/images/galerias/home/8-min.jpg">
-            <img src="{{site.baseurl}}/assets/images/galerias/home/9-min.jpg">
-            <img src="{{site.baseurl}}/assets/images/galerias/home/10-min.jpg">
-            <img src="{{site.baseurl}}/assets/images/galerias/home/11-min.jpg">
+           
+        {% for image in site.static_files %}
+         {% if image.path contains 'assets/images/galerias/home'  %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+         {% endif %} {% endfor %}
         </div>
     </section>
 </div>
