@@ -323,23 +323,8 @@ Segunda seccion, con algo de informacion sobre las actividades y una galeria de 
     }
 
     .segunda-Seccion__galeria {
+        @extend .galleria;
         padding-left: 5%;
         padding-right: 5%;
-        -webkit-column-count: 5;
-
-        /* Chrome, Safari, Opera */
-        -moz-column-count: 5;
-
-        /* Firefox */
-        column-count: 5;
-
-        @media (max-width: 500px) {
-            display: none;
-        }
-
-        img {
-            width: 100%;
-            padding: 3px 0;
-        }
     }
 }

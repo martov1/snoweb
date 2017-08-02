@@ -41,9 +41,31 @@ de todo
     margin: auto;
     background: white;
     box-shadow: 0px 0px 87px 17px rgba(97, 97, 97, 0.69);
-
 }
 
 html {
     background: url("../assets/images/bg-repeat-5.png") repeat;
+}
+
+/* Galeria tipo masonery */
+
+.galleria {
+    -webkit-column-count: 4;
+    column-gap: 3px;
+
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 4;
+
+    /* Firefox */
+    column-count: 4;
+
+    /* no gallery on mobile */
+    @media (max-width: 500px) {
+        display: none;
+    }
+
+    img {
+        width: 100%;
+        padding: 0px;
+    }
 }
