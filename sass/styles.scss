@@ -19,16 +19,18 @@ $textoClaro: #3C3C3B;
 $textoObscuro: #2E2E31;
 $textoAzulado: #2F8A92;
 * {font-family: 'Open Sans', sans-serif;}
-/***************
- inclusiones generales 
- ****************/
-@import 'other/elements.scss';
-@import'other/mixins.scss';
-@import 'includes/header.scss';
-@import 'includes/footer.scss';
-@import 'layouts/home.scss';
-@import 'layouts/manada.scss';
 
 /***********
 estilos compartidos
 ************/
+@import '_partials/includes/menuramas';
+@import 'includes/header.scss';
+@import 'includes/footer.scss';
+@import 'other/elements.scss';
+@import'other/mixins.scss';
+
+/***************
+ inclusiones generales 
+ ****************/
+@import 'layouts/home.scss';
+@import 'layouts/manada.scss';
