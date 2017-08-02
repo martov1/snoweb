@@ -4,7 +4,7 @@ header {
     background-color: $headerColor;
     display: flex;
     border-bottom: 2px white solid;
-    
+
     #logo {
         height: $headerHeight;
         min-width: 119px;
@@ -18,10 +18,11 @@ header {
         }
     }
 
-    .desktop-nav{
-        @media screen and (min-width: 944px){
-            display: flex
+    .desktop-nav {
+        @media screen and (min-width: 944px) {
+            display: flex;
         }
+
         display: none;
         justify-content: space-between;
         width: 100%;
@@ -55,7 +56,7 @@ header {
 
             .dropdown:hover .dropdown-content {
                 display: flex;
-                 flex-direction: column;
+                flex-direction: column;
             }
 
             div .dropdown-content {
@@ -80,23 +81,27 @@ header {
         }
     }
 
-    .mobile-nav{
-        @media screen and (max-width: 944px){
+    #mobile-nav {
+        @media screen and (max-width: 944px) {
             display: flex;
         }
+
+        .menu-hidden {
+            #mobile-nav__side-menu-contaner__menu {
+                display: none;
+            }
+        }
+
         display: none;
         color: white;
         width: 100%;
         justify-content: flex-end;
         align-items: center;
 
-        i{
+        i {
             font-size: 3rem;
             align-items: flex-end;
             margin-right: 10%;
-
         }
-        
     }
-
 }
