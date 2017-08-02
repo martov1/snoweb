@@ -1,0 +1,29 @@
+--- 
+layout: layout-default 
+active: rovers 
+---
+
+
+<section class="rovers-hero-section">
+    <div class="default-hero-section__titles">
+        <span class="default-hero-section__titles__large-titles">Ramas y Programas</span>
+    </div>
+</section>
+<div class="main-container">
+
+    <section class="rama-primera-seccion">
+        {% include menuramas.html %}
+        <h1>Rovers Kenya - 17 a 21 años</h1>
+        <div class="rama-primera-seccion__parrafos">
+            {{content}}
+        </div>
+    </section>
+
+    <section class="rovers-segunda-Seccion__galeria">
+        {% for image in site.static_files %} {% if image.path contains 'assets/images/galerias/rovers' %}
+        <img src="{{ site.baseurl }}{{ image.path }}" alt="image" /> {% endif %} {% endfor %}
+
+
+    </section>
+
+</div>
