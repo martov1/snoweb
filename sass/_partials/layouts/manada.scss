@@ -35,14 +35,26 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
 .manada-primera-seccion {
     background: url("../assets/images/bg-repeat-4.png");
     padding-bottom: 20px;
+
     h1 {
         text-align: center;
         color: $textoObscuro;
+    }
+
+    .manada-primera-seccion__parrafos{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        p{
+            max-width: 60ch;
+            text-align: justify;
+            hyphens: auto;
+        }
     }
 }
 
 .manada-segunda-Seccion__galeria {
     @extend .galleria;
-    background: url(../assets/images/bg-repeat-4.png);
 
+    background: url(../assets/images/bg-repeat-4.png);
 }
