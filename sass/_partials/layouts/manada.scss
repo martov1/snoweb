@@ -47,14 +47,18 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
         justify-content: space-around;
         p{
             max-width: 60ch;
-            text-align: justify;
             hyphens: auto;
+        }
+        span{
+            font-size: 1.3rem;
+            margin-bottom: 20px;
         }
     }
 }
 
 .manada-segunda-Seccion__galeria {
     @extend .galleria;
-
+    padding-left: 3%;
+    padding-right: 3%;
     background: url(../assets/images/bg-repeat-4.png);
 }
