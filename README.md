@@ -23,6 +23,12 @@ Eso es todo, lo que sigue es para el desarrollador de la pagina.
 
 ## Documentacion:
 
+Las imagenes que se coloquen en las carpetas de galeria de cada rama se muestran
+en la pagina de cada rama.
+La carpeta "originales" de cada galeria esta excluida (no se muestra) y es para
+poner las imagenes de tamaño original, hay que recordar que las imagenes de la galeria
+tienen que tener como mucho 500px en su dimension mas grande.
+
 ###  distribucion
 
 1. En el `root` del sitio estan los contenidos de la pagina principal
