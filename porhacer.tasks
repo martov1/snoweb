@@ -39,22 +39,26 @@ Crear y estilar contenido:
         ☐ Elegir fotos copadas para la galeria y ponerlas
 
 
-    ☐ @high Hacer las paginas de las ramas.
-        ☐ Hacer que los textos sean editables
+    ✔ @high Hacer las paginas de las ramas. @done (2/8/2017 17:58:11)
+        ✔ Hacer que los textos sean editables @done (2/8/2017 17:58:13)
     ✔ Hacer pares compartidas @done (2/8/2017 13:22:08)
         ✔ menu de navegacion @done (2/8/2017 13:22:03)
         ✔ hero section que dice "ramas y programas" con un overlay @done (2/8/2017 13:22:06)
 
-     ☐ Manada
+     ✔ Manada @done (2/8/2017 17:57:23)
         ✔ Realizar primer esbozo @done (1/8/2017 19:54:27)
         ✔ formatear correctamente el texto @done (2/8/2017 14:21:57)
         ✔ Pedirle a la manada que redacte que quieren que se vea en la pagina @done (2/8/2017 14:21:59)
         ✔ pedirle a la manada fotos que quieran en la galeria @done (2/8/2017 13:22:14)
-        ☐ Hacer que el texto sea editable
+        ✔ Hacer que el texto sea editable @done (2/8/2017 17:57:00)
 
-     ☐ Unidad
+     ✔ Unidad @done (2/8/2017 17:56:58)
      ☐ Caminantes
+        ✔ contenido @done (2/8/2017 17:57:09)
+        ☐ imagenes
      ☐ Rovers
+        ✔ contenido @done (2/8/2017 17:57:18)
+        ☐ imagenes
 
     ☐ @high hacer pagina quienes somos.
      ☐ seccion nuestras actividades
@@ -70,6 +74,10 @@ Crear y estilar contenido:
 Requiere de humanos:
 
     ☐ @low  Conseguir fotos para las paginas.
+        ✔ de manada @done (2/8/2017 17:57:56)
+        ✔ de unidad @done (2/8/2017 17:57:56)
+        ☐ de Caminantes
+        ☐ de rovers
 
 Hacer sitio responsive y mobile frendly:
 
