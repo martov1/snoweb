@@ -4,6 +4,17 @@
 
 -->
 
-<div>
-
+<div class="menu-ramas row around-sm">
+    <div class="col-md-3 col-xs-6 menu-ramas__rama  ">
+        <a href="{{site.baseurl}}/paginas/ramas/manada" class="{% if layout.active == "manada" %} menu-ramas__rama--current{% endif  %}">Manada</a>
+    </div>
+    <div class="col-md-3 col-xs-6 menu-ramas__rama">
+        <a href="{{site.baseurl}}/paginas/ramas/unidad" class="{% if layout.active == "unidad" %} menu-ramas__rama--current{% endif  %}">Unidad</a>
+    </div>
+    <div class="col-md-3 col-xs-6 menu-ramas__rama">
+        <a href="{{site.baseurl}}/paginas/ramas/caminantes" class="{% if layout.active == "caminantes" %} menu-ramas__rama--current{% endif  %}">Caminantes</a>
+    </div>
+    <div class="col-md-3 col-xs-6 menu-ramas__rama">
+        <a href="{{site.baseurl}}/paginas/ramas/rovers" class="{% if layout.active == "rovers" %} menu-ramas__rama--current{% endif  %}">Rovers</a>
+    </div>
 </div>
