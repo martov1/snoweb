@@ -7,3 +7,5 @@ sass:
 
 collections:
 - noticias
+
+exclude: [ '**/originales']
