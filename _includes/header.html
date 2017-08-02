@@ -7,9 +7,12 @@ de todas las paginas del sitio asi como la barra de navegacion
 
 <header>
     <div id="logo">
+        <a href="/">
         <img src="{{site.baseurl}}/assets/images/logo.png">
+        </a>
     </div>
-    <nav>
+    <nav class="desktop-nav">
+
         <div class="nav__left">
             <a href="{{site.baseurl}}/" class="{% if page.url == '/' %} currentPage {% endif %} ">Quienes somos</a>
             <div class="dropdown">
@@ -27,6 +30,9 @@ de todas las paginas del sitio asi como la barra de navegacion
             <a href="{{site.baseurl}}/paginas/ramas/manada" class="{% if page.url == '/paginas/ramas/manada' %} currentPage {% endif %}  button">Descargas</a>
             <a href="https://www.facebook.com/etchepare.sno" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a>
         </div>
+    </nav>
+    <nav class="mobile-nav">
+        <i class="fa fa-bars" aria-hidden="true"></i>
     </nav>
 
 </header>
