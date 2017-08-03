@@ -103,12 +103,14 @@ header {
             flex-direction: column;
             padding-top: 20px;
 
-            a{
+            a, a:visited{
                 font-size: 1.1rem;
                 margin: 10px;
                 margin-left: 5vw;
                 border-bottom: 1px solid white;
                 padding-bottom: 15px;
+                text-decoration: none;
+                color: white;
             }
             .mobile-nav__side-menu-contaner__menu__submenus{
                 margin-left: 10vw;

@@ -8,13 +8,13 @@ de todas las paginas del sitio asi como la barra de navegacion
 <header>
     <div id="logo">
         <a href="/">
-        <img src="{{site.baseurl}}/assets/images/logo.png">
+        <img src="/assets/images/logo.png">
         </a>
     </div>
     <nav class="desktop-nav">
 
         <div class="nav__left">
-            <a href="{{site.baseurl}}/" class="{% if page.url == '/' %} currentPage {% endif %} ">Quienes somos</a>
+            <a href="{{site.baseurl}}/paginas/quienessomos/">Quienes somos</a>
             <div class="dropdown">
                 <a>Ramas </a>
                 <div class="dropdown-content">
@@ -35,12 +35,12 @@ de todas las paginas del sitio asi como la barra de navegacion
         <i id="mobile-nav__burgerbutton" class="fa fa-bars " aria-hidden="true"></i>
         <div id="mobile-nav__side-menu-contaner" class="menu-hidden">
             <div id="mobile-nav__side-menu-contaner__menu">
-                <a>Quienes somos</a>
+                <a href="{{site.baseurl}}/paginas/quienessomos/">Quienes somos</a>
                 <a>Ramas</a>
-                <a class="mobile-nav__side-menu-contaner__menu__submenus"> manada</a>
-                <a class="mobile-nav__side-menu-contaner__menu__submenus"> Unidad</a>
-                <a class="mobile-nav__side-menu-contaner__menu__submenus"> Caminantes</a>
-                <a class="mobile-nav__side-menu-contaner__menu__submenus"> Rovers</a>
+                <a href="{{site.baseurl}}/paginas/ramas/manada" class="mobile-nav__side-menu-contaner__menu__submenus"> manada</a>
+                <a href="{{site.baseurl}}/paginas/ramas/unidad" class="mobile-nav__side-menu-contaner__menu__submenus"> Unidad</a>
+                <a href="{{site.baseurl}}/paginas/ramas/caminantes" class="mobile-nav__side-menu-contaner__menu__submenus"> Caminantes</a>
+                <a href="{{site.baseurl}}/paginas/ramas/rovers" class="mobile-nav__side-menu-contaner__menu__submenus"> Rovers</a>
                 <a>El Scoutismo</a>
                 <a>Descargas</a>
             </div>

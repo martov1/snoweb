@@ -25,6 +25,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+
         /*este margin es importante para el truco del background*/
         margin-bottom: 100px;
         margin-top: 20px;
@@ -33,22 +34,30 @@
     .segunda-Seccion__contenido {
         padding-bottom: 20px;
         background: url(../assets/images/bg-repeat-4.png);
-       
-        
+
         h2 {
             color: $headerColor;
         }
     }
 
-    
-
     .segunda-Seccion__contenido--primera-instancia .segunda-Seccion__contenido__contenedor {
         /*esto permite que la mitad de los logos este cubierto por el background*/
         margin-top: -86px;
-        
-         /* evita que  los logos se solapen en mobile*/
-        @media screen and (max-width: 1024px){
+
+        /* evita que  los logos se solapen en mobile*/
+        @media screen and (max-width: 1024px) {
             padding-bottom: 86px;
         }
+    }
+}
+
+.quienes-somos__nuestra-historia {
+    margin-left: 5%;
+    margin-right: 5%;
+    h3{
+        text-align: center;
+        font-size: 4rem;
+        color: $textoObscuro;
+
     }
 }
