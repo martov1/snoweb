@@ -12,10 +12,10 @@ Trabajo previo:
 Crear y estilar contenido:
 
 
-    ☐ @high  hacer partes compartidas.
+    ✔ @high  hacer partes compartidas. @done (3/8/2017 16:18:13)
      ✔ hacer el header @done (25/7/2017 21:53:18)
-        ☐ Hacer responsive
-            ☐ burger menu
+        ✔ Hacer responsive @done (3/8/2017 16:18:12)
+            ✔ burger menu @done (3/8/2017 16:18:05)
             ✔ responsive typography @done (1/8/2017 16:55:37)
             ✘ flex order para el texto de hero? @cancelled (1/8/2017 16:55:51)
      ✔ hacer footer @done (26/7/2017 3:14:06)
@@ -33,10 +33,10 @@ Crear y estilar contenido:
       ✔ hacer links de metodo scout, conoce a los diris, etc @done (1/8/2017 16:56:30)
      ✔ hacer segunda seccion (Actividades y galeria). @done (1/8/2017 19:20:04)
         ✔ Hacer seccion de "nuestras actividades" @done (1/8/2017 18:37:00)
-        ☐ Hacer que "nuestras actividades" sea editable
+        ✘ Hacer que "nuestras actividades" sea editable @cancelled (3/8/2017 16:17:47)
             ☐ Corregir los SVGs, no se exportaron bien y se ven distintos
         ✘ Hacer galleria, usar http://photoswipe.com/ @cancelled (1/8/2017 19:19:03)
-        ☐ Elegir fotos copadas para la galeria y ponerlas
+        ✔ Elegir fotos copadas para la galeria y ponerlas @done (3/8/2017 16:18:20)
 
 
     ✔ @high Hacer las paginas de las ramas. @done (2/8/2017 17:58:11)
@@ -56,13 +56,13 @@ Crear y estilar contenido:
      ☐ Caminantes
         ✔ contenido @done (2/8/2017 17:57:09)
         ☐ imagenes
-     ☐ Rovers
+     ✔ Rovers @done (3/8/2017 16:16:18)
         ✔ contenido @done (2/8/2017 17:57:18)
-        ☐ imagenes
+        ✔ imagenes @done (3/8/2017 16:16:16)
 
     ☐ @high hacer pagina quienes somos.
-     ☐ seccion nuestras actividades
-     ☐ seccion los dirigentes
+     ✔ seccion nuestras actividades @done (3/8/2017 16:16:22)
+     ✘ seccion los dirigentes @cancelled (3/8/2017 16:16:25)
      ☐ seccion Nuestra historia
 
     ☐ @high hacer pagina el scoutismo
@@ -76,36 +76,36 @@ Requiere de humanos:
         ✔ de manada @done (2/8/2017 17:57:56)
         ✔ de unidad @done (2/8/2017 17:57:56)
         ☐ de Caminantes
-        ☐ de rovers
+        ✔ de rovers @done (3/8/2017 16:16:31)
 
 Hacer sitio responsive y mobile frendly:
 
     ✔ @low hacer el sitio responsive teniendo en cuenta viewport scale!. @done (1/8/2017 16:56:46)
 
-    ☐ @low usar las imagenes responsablemente con el curso de responsive images.
-        ☐ @low explorar usar las imagenes o svg como inline data
-        ☐ @low usar SVG donde sea posible
-        ☐ @low buena compresion de imagenes (imageoptim) 
-        ☐ @low buena seleccion de formatos (imagemagic)
+    ✔ @low usar las imagenes responsablemente con el curso de responsive images. @done (3/8/2017 16:16:37)
+        ✔ @low explorar usar las imagenes o svg como inline data @done (3/8/2017 16:17:02)
+        ✔ @low usar SVG donde sea posible @done (3/8/2017 16:16:59)
+        ✔ @low buena compresion de imagenes (imageoptim) @done (3/8/2017 16:16:38)
+        ✔ @low buena seleccion de formatos (imagemagic) @done (3/8/2017 16:16:39)
         ☐ @low chequear usando page speed insights de google
         ☐ @low usar atributo srcset para que el browser elija el mejor tamaño de imagen  
         ☐ @low cambiar la imagen con <picture> y <source> si fuera beneficioso para el diseñador
         ☐ @low  usar srcset y sizes para que el browser elija la imagen segun el tamaño que va a tener en el viewport
-        ☐ @low usar <picture> para proveer fuentes alternativas (como webp)
-        ☐ @low usar alt tag para accesibilidad.
+        ✘ @low usar <picture> para proveer fuentes alternativas (como webp) @cancelled (3/8/2017 16:16:51)
+        ✘ @low usar alt tag para accesibilidad. @cancelled (3/8/2017 16:16:47)
         
     ✔ @low responsive typography @done (1/8/2017 16:56:51)
         ✔ @low usar rem como unidad en todos los textos. @done (1/8/2017 16:56:52)
 
     ✔ @low media query en los elementos que lo requieran @done (1/8/2017 16:56:59)
-    ☐ @low usar SVG a partir de illustrator donde sea posible.
+    ✔ @low usar SVG a partir de illustrator donde sea posible. @done (3/8/2017 16:17:15)
 
-    ☐ @low usar imagen con link geografico en lugar de mapa.
+    ✘ @low usar imagen con link geografico en lugar de mapa. @cancelled (3/8/2017 16:17:11)
 
 Aplicar buenas tecnicas typograficas:
 
     ✔ Usar rem como unidad @done (1/8/2017 17:00:00)
-    ☐ 40-70 characters in line (ch como unidad?)
+    ✔ 40-70 characters in line (ch como unidad?) @done (3/8/2017 16:17:19)
     ☐ Line height con buena proporcion
     ☐ Letter spacing
     ☐ SmartUnderlines
@@ -124,7 +124,7 @@ Cosas que requieren aprendizaje:
     
     ✘ @critical  http://gymnasium.aquent.com/courses/GYM/101/0/courseware/eceb571b0bec420a93ca18c7fba8ee55/8815181df44442b2add6648abcfe0cf5/ @cancelled (1/8/2017 17:00:23)
     ✔ @critical Responsive design https://www.udacity.com/course/responsive-web-design-fundamentals--ud893 @done (1/8/2017 17:00:21)
-    ☐ @critical Images https://www.youtube.com/watch?v=1Pxj9955I2c&list=PLAwxTw4SYaPlMK4ycui-adGBe2erTgMkY
+    ✔ @critical Images https://www.youtube.com/watch?v=1Pxj9955I2c&list=PLAwxTw4SYaPlMK4ycui-adGBe2erTgMkY @done (3/8/2017 16:17:29)
     ☐ @critical typography https://medium.com/@ThibaultJanBeyer/quick-guide-to-web-typography-dc1c694251d2
     
     
