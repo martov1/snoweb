@@ -4,7 +4,7 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
 
 .rovers-hero-section {
      @extend .hero-section;
-    background: linear-gradient(rgba(0, 99, 132, 0.45), rgba(0, 99, 132, 0.45)), url("../assets/images/unidadhero.jpg");
+    background: linear-gradient(rgba(0, 99, 132, 0.4), rgba(0, 99, 132, 0.4)), url("../assets/images/rovershero.jpg");
     background-size: cover;
     background-position: center;
 }
