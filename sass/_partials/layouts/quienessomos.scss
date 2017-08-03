@@ -24,7 +24,9 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-
+        h1{
+            font-size: 3em;
+        }
         /*este margin es importante para el truco del background*/
         margin-bottom: 100px;
         margin-top: 20px;
