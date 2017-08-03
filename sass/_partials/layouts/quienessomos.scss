@@ -1,0 +1,54 @@
+.quienes-somos-hero-section {
+    @extend .hero-section;
+
+    background: linear-gradient(rgba(0, 99, 132, 0.45), rgba(0, 99, 132, 0.45)), url("../assets/images/quienessomoshero.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.quienes-somos__actividades {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 20px;
+
+    h3 {
+        text-align: justify;
+        hyphens: auto;
+        line-height: 2rem;
+        color: $textoObscuro;
+        font-size: 1.3rem;
+        font-weight: 450;
+    }
+
+    .segunda-Seccion__titulo-y-logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        /*este margin es importante para el truco del background*/
+        margin-bottom: 100px;
+        margin-top: 20px;
+    }
+
+    .segunda-Seccion__contenido {
+        padding-bottom: 20px;
+        background: url(../assets/images/bg-repeat-4.png);
+       
+        
+        h2 {
+            color: $headerColor;
+        }
+    }
+
+    
+
+    .segunda-Seccion__contenido--primera-instancia .segunda-Seccion__contenido__contenedor {
+        /*esto permite que la mitad de los logos este cubierto por el background*/
+        margin-top: -86px;
+        
+         /* evita que  los logos se solapen en mobile*/
+        @media screen and (max-width: 1024px){
+            padding-bottom: 86px;
+        }
+    }
+}
