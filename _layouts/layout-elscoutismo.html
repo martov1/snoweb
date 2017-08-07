@@ -1,4 +1,6 @@
---- layout: layout-default ---
+--- 
+layout: layout-default 
+---
 
 
 
@@ -116,14 +118,14 @@
                 threshold: 20,
                 loop: true,
             });
-            var timer = setTimeout(function () { elscoutismo_carousel.next(); }, 5000);
+            var timer = setInterval(function () { elscoutismo_carousel.next(); }, 5000);
             document.querySelector('.carousel__siema__next').addEventListener('click', () => {
-                clearTimeout(timer);
+                clearInterval(timer);
                 elscoutismo_carousel.next()
             }
             );
             document.querySelector('.carousel__siema__prev').addEventListener('click', () => {
-                clearTimeout(timer);
+                clearInterval(timer);
                 elscoutismo_carousel.prev()
             })
         </script>
