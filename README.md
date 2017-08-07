@@ -23,6 +23,10 @@ Eso es todo, lo que sigue es para el desarrollador de la pagina.
 
 ## Documentacion:
 
+Para iniciar el servicio, utilizar desde el root del repo.
+
+` jekyll serve --watch --baseurl ""`
+
 Las imagenes que se coloquen en las carpetas de galeria de cada rama se muestran
 en la pagina de cada rama.
 La carpeta "originales" de cada galeria esta excluida (no se muestra) y es para
