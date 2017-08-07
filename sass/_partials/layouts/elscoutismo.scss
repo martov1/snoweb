@@ -1,0 +1,11 @@
+/*
+Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
+*/
+
+.elscoutismo-hero-section {
+     @extend .hero-section;
+
+    background: linear-gradient(rgba(0, 99, 132, 0.45), rgba(0, 99, 132, 0.45)), url("../assets/images/elscoutismohero.jpg");
+    background-size: cover;
+    background-position: center;
+}
