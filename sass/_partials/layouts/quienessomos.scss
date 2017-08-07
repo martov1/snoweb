@@ -7,8 +7,6 @@
 }
 
 .quienes-somos__actividades {
-    margin-left: 5%;
-    margin-right: 5%;
     padding-top: 40px;
 
     h3 {
@@ -42,7 +40,8 @@
     .segunda-Seccion__contenido {
         padding-bottom: 20px;
         background: url(../assets/images/bg-repeat-4.png);
-
+        margin-left: 0px;
+        margin-right: 0px;
         h2 {
             color: $headerColor;
         }
