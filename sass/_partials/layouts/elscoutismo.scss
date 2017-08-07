@@ -31,3 +31,39 @@ Seccion HERO, osea la imagen grande de arriba que ocupa toda la pantalla
         hyphens: auto;
     }
 }
+
+.el-metodo-scout {
+    text-align: center;
+
+    .el-metodo-scout__logo-y-titulo {
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    button {
+        border: none;
+        background: none;
+        width: 10%;
+    }
+
+    button:focus {
+        outline: 0 ;
+    }
+
+    .carousel__siema {
+        width: 80%;
+
+        .carousel__siema__slide {
+            text-align: left;
+            padding: 15px;
+        }
+    }
+}

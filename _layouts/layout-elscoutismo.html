@@ -1,6 +1,5 @@
---- 
-layout: layout-default 
----
+--- layout: layout-default ---
+
 
 
 <section class="elscoutismo-hero-section">
@@ -9,8 +8,7 @@ layout: layout-default
     </div>
 </section>
 <div class="main-container">
-
-    <div class="elscoutismo__primera-seccion row around-xs">
+    <section class="elscoutismo__primera-seccion row around-xs">
         <img src="{{site.baseurl}}/assets/images/arboles.svg" class="col-xs-12">
         <p class="col-md-6">
             El Scoutismo, o escultismo, es un método de educación no formal cuyo objetivo es potenciar las capacidades de cada niño para
@@ -37,6 +35,97 @@ layout: layout-default
             Los chicos participan de las actividades con otros de su misma edad. A estos grupos los llamamos Ramas.
         </p>
 
-    </div>
 
+    </section>
+
+    <section class="el-metodo-scout row">
+        <!-- carousel usando siema -->
+        <div class="col-xs-12 el-metodo-scout__logo-y-titulo">
+            <img src="{{site.baseurl}}/assets/images/reloj.png">
+            <h1 class="col-xs-12">El Método Scout</h1>
+        </div>
+        <div class="carousel">
+
+
+            <button class="carousel__siema__prev ">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </button>
+
+            <div class="carousel__siema ">
+
+
+                <div class="carousel__siema__slide"><b>Aprendizaje a través del juego, la acción y el servicio</b> <br><br> Dentro de este gran juego, los chicos
+                    y jóvenes se involucran dentro de la actividad. Acompañados por los adultos, son ellos mismos quienes
+                    exploran, toman decisiones, planean acciones y reflexionan sobre el error o el éxito de los resultados.
+                </div>
+                <div class="carousel__siema__slide"><b>Vida en la naturaleza</b> <br><br> Se planifican actividades al aire libre acorde a la edad de los chicos,
+                    sus intereses y capacidades; siempre teniendo en cuenta la importancia de la conservación de la naturaleza.
+                    Los desafíos que presenta la naturaleza permiten que los chicos y jóvenes descubran las maravillas que
+                    ofrece, desarrollen sus capacidades físicas y creen vínculos con otros.
+                </div>
+                <div class="carousel__siema__slide">
+                    <b>Adhesión voluntaria a la Ley y la Promesa Scout</b> <br><br> La Ley y la Promesa expresan el conjunto
+                    de valores fundamentales del Scoutismo. Son las reglas del juego, que no son impuestas, sino que se aprenden
+                    y se incorporan de manera voluntaria e individual. Varían de organización a organización, pero todos
+                    están basados en la primera promesa y ley que redactara Baden Powell.
+                </div>
+                <div class="carousel__siema__slide">
+                    <b>Trabajo dentro de un marco simbólico</b> <br><br> Se trata de la representación de la realidad que
+                    ofrece cada rama. El Marco enriquece la actividad, ofrece herramientas de reflexión y símbolos que ayudan
+                    a los chicos y jóvenes a identificarse con su rama.
+                </div>
+                <div class="carousel__siema__slide">
+                    <b>Trabajo dentro de un sistema de progresión personal</b><br><br> Los scouts obtienen un reconocimiento
+                    de sus logros, no sólo como scout, sino en todas las esferas de su vida. Se busca aumentar la confianza
+                    en sí mismo, y que tengan mayor autonomía a medida que crecen.
+                </div>
+                <div class="carousel__siema__slide">
+                    <b>Aplicación del sistema de patrullas La patrulla</b><br><br> (seisena o equipo, según la rama) es la
+                    unidad más pequeña de trabajo. Se trata de un pequeño grupo de chicos de edad e intereses similares que
+                    comparten objetivos y responsabilidades del equipo por igual. Los chicos adquieren confianza al tener
+                    responsabilidades propias, disfrutan de un sentido de pertenencia y amistad, y de los logros de su patrulla
+                    y sus miembros.
+                </div>
+                <div class="carousel__siema__slide">
+                    <b>Acompañamiento de los adultos Los adultos</b><br><br> responsables de las actividades son voluntarios
+                    que enseñan a través del ejemplo; son testimonio de los valores del movimiento, Las actividades propuestas
+                    están basadas en los intereses y las necesidades de los chicos y jóvenes, y el rol del adulto es del
+                    acompañarlos en su crecimiento y en su vivencia del Movimiento Scout.
+                </div>
+            </div>
+
+            <button class="carousel__siema__next "> 
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                </button>
+        </div>
+        <!-- script de siema -->
+        <script src="{{site.baseurl}}/assets/js/siema.min.js"></script>
+        <script>
+            const elscoutismo_carousel = new Siema({
+                selector: '.carousel__siema',
+                duration: 200,
+                easing: 'ease-out',
+                perPage: {
+                    100: 1,
+                    700: 2,
+                    900: 3,
+                    1500: 4,
+                },
+                startIndex: 0,
+                draggable: true,
+                threshold: 20,
+                loop: true,
+            });
+            var timer = setTimeout(function () { elscoutismo_carousel.next(); }, 5000);
+            document.querySelector('.carousel__siema__next').addEventListener('click', () => {
+                clearTimeout(timer);
+                elscoutismo_carousel.next()
+            }
+            );
+            document.querySelector('.carousel__siema__prev').addEventListener('click', () => {
+                clearTimeout(timer);
+                elscoutismo_carousel.prev()
+            })
+        </script>
+    </section>
 </div>
