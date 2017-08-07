@@ -60,10 +60,10 @@ Crear y estilar contenido:
         ✔ contenido @done (2/8/2017 17:57:18)
         ✔ imagenes @done (3/8/2017 16:16:16)
 
-    ☐ @high hacer pagina quienes somos.
+    ✔ @high hacer pagina quienes somos. @done (7/8/2017 13:44:24)
      ✔ seccion nuestras actividades @done (3/8/2017 16:16:22)
      ✘ seccion los dirigentes @cancelled (3/8/2017 16:16:25)
-     ☐ seccion Nuestra historia
+     ✔ seccion Nuestra historia @done (7/8/2017 13:44:23)
 
     ☐ @high hacer pagina el scoutismo
      ☐ seccion la mision.
@@ -77,6 +77,8 @@ Requiere de humanos:
         ✔ de unidad @done (2/8/2017 17:57:56)
         ☐ de Caminantes
         ✔ de rovers @done (3/8/2017 16:16:31)
+
+    ☐ @high determinar que onda con las paginas "los dirigentes", "el metodo scout"..
 
 Hacer sitio responsive y mobile frendly:
 
